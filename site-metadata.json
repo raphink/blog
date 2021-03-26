@@ -2,23 +2,13 @@
     "description": "A minimal blogging theme for Stackbit",
     "header": {
         "title": "Raphaël Pinson",
-        "tagline": "Infrastructure Developer & Technology Advocate working @camptocamp. ",
+        "tagline": "Infrastructure Developer working @camptocamp. ",
         "background_img": "images/header-bg.jpg",
         "has_nav": true,
         "nav_links": [
             {
                 "label": "Home",
-                "url": "/",
-                "type": "link"
-            },
-            {
-                "label": "About",
-                "url": "/about/",
-                "type": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide/",
+                "url": "https://raphink.info",
                 "type": "link"
             },
             {
@@ -41,6 +31,27 @@
                 "url": "https://dev.to/raphink",
                 "type": "icon",
                 "icon_class": "fa-dev",
+                "new_window": true
+            },
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/raphink",
+                "type": "icon",
+                "icon_class": "fa-twitter",
+                "new_window": true
+            },
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/raphink",
+                "type": "icon",
+                "icon_class": "fa-linkedin",
+                "new_window": true
+            },
+            {
+                "label": "Stack Exchange",
+                "url": "https://stackexchange.com/users/82664/%e2%84%9daphink",
+                "type": "icon",
+                "icon_class": "fa-stack-exchange",
                 "new_window": true
             }
         ]

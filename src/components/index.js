@@ -6,6 +6,9 @@ import HeaderAlt from './HeaderAlt';
 import Navigation from './Navigation';
 import Layout from './Layout';
 
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
+
 export {
     Branding,
     Footer,

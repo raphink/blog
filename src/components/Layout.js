@@ -19,16 +19,6 @@ export default class Body extends React.Component {
                     _.get(this.props, 'pageContext.frontmatter.canonical_url') && 
                     <link rel="canonical" href={_.get(this.props, 'pageContext.frontmatter.canonical_url')}/>
                     }
-
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/idea.min.css"/>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/puppet.min.js" defer></script>
-                    <script type="text/javascript" defer>{`
-                    document.addEventListener("DOMContentLoaded", function(event) {
-                      hljs.highlightAll();
-                    });
-                    `}</script>
-
                 </Helmet>
                 <div id="page" className={'site palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette')}>
                   {this.props.children}

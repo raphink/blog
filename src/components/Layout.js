@@ -22,8 +22,8 @@ export default class Body extends React.Component {
 
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/idea.min.css"/>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/puppet.min.js"></script>
-                    <script type="text/javascript">{`
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/puppet.min.js" defer></script>
+                    <script type="text/javascript" defer>{`
                     document.addEventListener("DOMContentLoaded", function(event) {
                       hljs.highlightAll();
                     });

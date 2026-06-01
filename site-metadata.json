@@ -34,10 +34,10 @@
                 "new_window": true
             },
             {
-                "label": "Twitter",
-                "url": "https://twitter.com/raphink",
+                "label": "Bluesky",
+                "url": "https://bsky.app/profile/raphink.info",
                 "type": "icon",
-                "icon_class": "fa-twitter",
+                "icon_class": "fa-bluesky",
                 "new_window": true
             },
             {

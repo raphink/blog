@@ -2,7 +2,7 @@
     "description": "A minimal blogging theme for Stackbit",
     "header": {
         "title": "Raphaël Pinson",
-        "tagline": "Infrastructure Developer working @camptocamp. ",
+        "tagline": "Infrastructure Developer working @Isovalent. ",
         "background_img": "images/header-bg.jpg",
         "has_nav": true,
         "nav_links": [

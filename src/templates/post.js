@@ -35,6 +35,11 @@ export default class Post extends React.Component {
                     <div className="post-content">
                       {htmlToReact(_.get(this.props, 'pageContext.html'))}
                     </div>
+                    {_.get(this.props, 'pageContext.frontmatter.devto_url') &&
+                    <footer className="post-meta post-source">
+                      Originally published on <a href={_.get(this.props, 'pageContext.frontmatter.devto_url')} target="_blank" rel="noopener noreferrer">DEV</a>.
+                    </footer>
+                    }
                   </article>
                 </main>
                 <Footer {...this.props} site={this.props.pageContext.site} page={this.props.pageContext} image={_.get(this.props, 'pageContext.frontmatter.content_img_path')} />

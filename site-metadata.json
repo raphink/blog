@@ -58,20 +58,7 @@
     },
     "footer": {
         "content": "&copy; All rights reserved.",
-        "links": [
-            {
-                "label": "Made with Stackbit.",
-                "url": "https://www.stackbit.com",
-                "type": "link",
-                "new_window": true
-            },
-            {
-                "label": "Generated from DEV",
-                "url": "https://dev.to/connecting-with-stackbit",
-                "new_window": true,
-                "type": "link"
-            }
-        ]
+        "links": []
     },
     "palette": "yellow",
     "title": "Open Source Automation"

@@ -1,0 +1,49 @@
+name: Sync posts from dev.to
+
+on:
+  schedule:
+    # Every day at 05:17 UTC. Offset minute to avoid the top-of-hour herd.
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - 'scripts/fetch-devto-posts.js'
+      - '.github/workflows/sync-devto.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-devto
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch dev.to posts
+        env:
+          DEVTO_USERNAME: raphink
+          # Optional: set DEVTO_API_KEY as a repo secret to raise rate limits
+          # or include unpublished drafts.
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+        run: node scripts/fetch-devto-posts.js
+
+      - name: Commit changes
+        run: |
+          if [[ -z "$(git status --porcelain src/pages/posts)" ]]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/pages/posts
+          git commit -m "chore(posts): sync from dev.to"
+          git push

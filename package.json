@@ -32,5 +32,8 @@
     "rehype-react": "^3.0.2",
     "sass": "^1.77.0",
     "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "turndown": "^7.2.4"
   }
 }

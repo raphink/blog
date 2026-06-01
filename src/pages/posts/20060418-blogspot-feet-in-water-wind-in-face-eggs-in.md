@@ -1,0 +1,17 @@
+---
+template: post
+title: "Feet in the water, Wind in the face, & Eggs in the pockets"
+date: "2006-04-18T14:55:00.000+02:00"
+canonical_url: "https://raphink.blogspot.com/2006/04/feet-in-water-wind-in-face-eggs-in.html"
+blogspot_url: "https://raphink.blogspot.com/2006/04/feet-in-water-wind-in-face-eggs-in.html"
+tags: ["english", "france", "life", "restored"]
+---
+We had a wonderful Easter weekend with my family! We went to visit some friends of us in Normandy that we hadn’t seen for a long time, and it was really great! We don’t often spend time altogether with my parents and sister, and it’s very nice when we get to do it.  
+[![Ahhhhhhhh! Wiiiiiiiiind!](http://web.archive.org/web/20060805074200/http://raphink.info/blog/wp-content/uploads/2006/04/web_HPIM3160.thumbnail.JPG)](http://web.archive.org/web/20060805074200/http://gallery.raphink.info/main.php?g2_itemId=35 "Ahhhhhhhh! Wiiiiiiiiind!")  
+We got there with my parents on Friday evening, and my sister Delphine joined us on Saturday evening. The first thing we did when Delphine got there was to go to the sea and enjoy the fury of the wind mixed with the a cold rain full of salt. We could hardly stand up with the wind, and the rain was getting everywhere. We had to scream to get heard, but it was really great, and we got enough fresh air for a few days. I’m closing my eyes on this pic, but it wouldn’t change much since all the drops on my glasses prevented me from seeing anyway ![;)](http://web.archive.org/web/20060805074200/http://raphink.info/blog/wp-includes/images/smilies/icon_wink.gif)  
+[![Under the waterfall](http://web.archive.org/web/20060805074200/http://raphink.info/blog/wp-content/uploads/2006/04/web_HPIM3230.thumbnail.JPG)](http://web.archive.org/web/20060805074200/http://gallery.raphink.info/main.php?g2_itemId=155 "Under the waterfall")  
+On Sunday, other friends joined us. After tracking eggs in the house for quite a time - Delphine had prepared a game to search for them all around -, we went hiking to a nice place with waterfalls. We had a lot of fun there, climbing, chatting & singing. My parents knew these friends in a choir, years ago, and music is one of the most important things we have in common ![:)](http://web.archive.org/web/20060805074200/http://raphink.info/blog/wp-includes/images/smilies/icon_smile.gif)  
+[![Shapes dancing in the bay](http://web.archive.org/web/20060805074200/http://raphink.info/blog/wp-content/uploads/2006/04/web_HPIM3320.thumbnail.JPG)](http://web.archive.org/web/20060805074200/http://gallery.raphink.info/main.php?g2_itemId=362 "Shapes dancing in the bay")  
+On Monday, our last day there, we went for a long hike to the [Mont St Michel](http://web.archive.org/web/20060805074200/http://en.wikipedia.org/wiki/Mont_Saint_Michel). This is a very touristic place in the middle of a bay, and full of people in Easter. Now what is great is to go there on foot, crossing the bay with your bare feet, walking in the mud and sand for 7 km and back, crossing cold rivers up to the hips, jumping on moving sands as on a trampoline. We had a very nice and funny guide to cross the bay, and the weather was really great although still a bit cold, so we enjoyed our day to the fullest.
+
+Overall, it was really a great time, and a nice breath of fresh air before diving into real life again ![:)](http://web.archive.org/web/20060805074200/http://raphink.info/blog/wp-includes/images/smilies/icon_smile.gif)

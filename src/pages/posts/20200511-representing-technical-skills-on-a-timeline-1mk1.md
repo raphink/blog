@@ -68,7 +68,7 @@ This JSON file is parsed and displayed on the page. Each skill can be assigned a
 
 The code is open-source and can be forked on GitHub. Just check the `gh-pages` branch:
 
-{% github raphink/CV no-readme %}
+[GitHub — raphink/CV](https://github.com/raphink/CV)
 
 
 As usual, pull requests are welcome if you find nice ways to improve this!

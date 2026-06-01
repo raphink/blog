@@ -32,7 +32,7 @@ However, purging all unknown users would be a much easier approach than managing
 
 As explained [in a previous post about managing files in Puppet](https://dev.to/camptocamp-ops/how-to-manage-files-with-puppet-55e4#whole-dynamic-purge), Puppet has the ability of purging unmanaged resources. I'll let you see the post for more explanations on how this works:
 
-{% link camptocamp-ops/how-to-manage-files-with-puppet-55e4#whole-dynamic-purge %}
+[https://dev.to/camptocamp-ops/how-to-manage-files-with-puppet-55e4#whole-dynamic-purge](https://dev.to/camptocamp-ops/how-to-manage-files-with-puppet-55e4#whole-dynamic-purge)
 
 
 # What if I don't want to purge?

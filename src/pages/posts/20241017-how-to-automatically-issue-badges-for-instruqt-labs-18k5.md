@@ -23,9 +23,9 @@ We'll be using Instruqt webhooks, coupled with the Credly API, to automatically 
 
 And thanks to Isovalent's open-sourced Go libraries for both [Instruqt](https://github.com/isovalent/instruqt-go) and [Credly](https://github.com/isovalent/credly-go) APIs, you will find this automation process smooth and straightforward.
 
-{% github isovalent/instruqt-go %}
+[GitHub — isovalent/instruqt-go](https://github.com/isovalent/instruqt-go)
 
-{% github isovalent/credly-go %}
+[GitHub — isovalent/credly-go](https://github.com/isovalent/credly-go)
 
 
 # Overview

@@ -17,7 +17,7 @@ We also believe the user experience should be smooth and the processes fully aut
 Fortunately, a lot can be done by leveraging the [Instruqt graphQL API](https://api-docs.instruqt.com/).
 To that purpose, we wrote our own `instruqt-go` library, which we've decided to open source. The library is designed to help developers automate and integrate with the Instruqt platform with ease.
 
-{% github isovalent/instruqt-go %}
+[GitHub — isovalent/instruqt-go](https://github.com/isovalent/instruqt-go)
 
 One of the issues in publishing Instruqt labs is to link user information from Instruqt with that of your own database or CRM.
 In this first post, we’ll guide you through building a proxy using `instruqt-go` that:

@@ -82,7 +82,7 @@ The CLI needs to be connected to the Bivac manager, using its HTTP URL and PSK (
 
 The `bivac volumes` command lets you list the volumes managed by Bivac:
 
-{% gist https://gist.github.com/raphink/fe24bf6bc1205633471432f02ec13c15 file=bivac-volumes.sh %}
+[Gist — bivac-volumes.sh](https://gist.github.com/raphink/fe24bf6bc1205633471432f02ec13c15)
 
 
 
@@ -91,7 +91,7 @@ The `bivac volumes` command lets you list the volumes managed by Bivac:
 While Bivac automatically performs backups at a regular interval, the CLI can also be used to trigger backups manually:
 
 
-{% gist https://gist.github.com/raphink/fe24bf6bc1205633471432f02ec13c15 file=bivac-backup.sh %}
+[Gist — bivac-backup.sh](https://gist.github.com/raphink/fe24bf6bc1205633471432f02ec13c15)
 
 
 
@@ -99,7 +99,7 @@ While Bivac automatically performs backups at a regular interval, the CLI can al
 
 Bivac stores restic backups on object storage and lets you restore them using the `backup restore` command:
 
-{% gist https://gist.github.com/raphink/fe24bf6bc1205633471432f02ec13c15 file=bivac-restore.sh %}
+[Gist — bivac-restore.sh](https://gist.github.com/raphink/fe24bf6bc1205633471432f02ec13c15)
 
 
 

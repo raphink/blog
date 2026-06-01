@@ -32,7 +32,7 @@ I opened Claude Code and asked it to build an MCP server that wrapped the Edison
 - `edison_browse_series`: Navigate document collections systematically
 - `edison_get_images`: Access high-resolution scans
 
-{% embed https://github.com/raphink/edison-archive-mcp %}
+[https://github.com/raphink/edison-archive-mcp](https://github.com/raphink/edison-archive-mcp)
 
 Now instead of clicking through 847 results, I could ask Claude:
 
@@ -94,7 +94,7 @@ My family tree lives in Geni — a collaborative genealogy platform to build a u
 
 So I took a shortcut. From time to time, I export data from Geni to GEDCOM (the genealogy standard format), with about 25000 individuals in my export. I used airy10's GEDCOM MCP to make it queryable locally.
 
-{% embed https://github.com/airy10/GedcomMCP %}
+[https://github.com/airy10/GedcomMCP](https://github.com/airy10/GedcomMCP)
 
 This worked! Now Claude could:
 
@@ -127,7 +127,7 @@ So I went back to the Geni API. A few more hours of iteration with Claude Code, 
 - 13 tools: profile CRUD, relationship pathfinding, merge candidate detection, family traversal
 - Search by name, verify relationships, trace lineage paths programmatically
 
-{% embed https://github.com/raphink/geni-mcp %}
+[https://github.com/raphink/geni-mcp](https://github.com/raphink/geni-mcp)
 
 Now I could ask mid-conversation: "Is Samuel Léon related to Élie Moïse Léon?" and get the relationship path instantly, whether I was in Claude Desktop or [claude.ai](http://claude.ai).
 
@@ -146,7 +146,7 @@ So I built a newspapers MCP that:
 - Searches across collections simultaneously
 - Returns snippets as base64-encoded images (because OCR quality varies)
 
-{% embed https://github.com/raphink/newspapers-mcp %}
+[https://github.com/raphink/newspapers-mcp](https://github.com/raphink/newspapers-mcp)
 
 **Here’s a real example:** 
 

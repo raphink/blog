@@ -61,7 +61,7 @@ That's it, you're set!
 
 Don't hesitate to provide feedback and pull requests on the [GitHub repository](https://github.com/camptocamp/prometheus-puppetdb-sd)!
 
-{% github camptocamp/prometheus-puppetdb-sd %}
+[GitHub — camptocamp/prometheus-puppetdb-sd](https://github.com/camptocamp/prometheus-puppetdb-sd)
 
 
 *This post was originally published on [https://www.camptocamp.com/actualite/integrating-prometheus-with-puppetdb/](https://www.camptocamp.com/actualite/integrating-prometheus-with-puppetdb/)*

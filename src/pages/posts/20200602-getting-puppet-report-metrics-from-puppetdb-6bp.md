@@ -20,7 +20,7 @@ On top of this, reports and their metrics are already exported to the PuppetDB, 
 # Prometheus PuppetDB Exporter
 
 
-{% github camptocamp/prometheus-puppetdb-exporter %}
+[GitHub — camptocamp/prometheus-puppetdb-exporter](https://github.com/camptocamp/prometheus-puppetdb-exporter)
 
 
 Prometheus PuppetDB Exporter is a simple go binary that can scrape the PuppetDB for report metrics for Prometheus. It runs independently of the Puppet stack, and can be tuned to collect various types of metrics:

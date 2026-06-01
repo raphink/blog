@@ -17,7 +17,7 @@ However, EKS authentication is based off AWS IAM, which means users need an AWS 
 
 As we were setting up EKS for Kubernetes training, we needed a simple way for users without an AWS account to access the cluster, so we created a basic proxy service for the EKS `get-token` action.
 
-{% github camptocamp/aws-iam-authenticator-proxy %}
+[GitHub — camptocamp/aws-iam-authenticator-proxy](https://github.com/camptocamp/aws-iam-authenticator-proxy)
 
 
 ## Deploying with Docker

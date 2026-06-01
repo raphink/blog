@@ -26,7 +26,7 @@ If anything in this series resonated, the RAADS-R is a good starting point. It's
 
 I built a free tool at https://raphink.github.io/raads-r/ that walks you through it and generates an AI-enhanced report. It's free to use, though report generation has a cost on my end. Generate ahead if you can, and if it doesn't work, feel free to DM me.
 
-{% embed https://github.com/raphink/raads-r %}
+[https://github.com/raphink/raads-r](https://github.com/raphink/raads-r)
 
 You can't know what you don't know. But now you have a door.
 

@@ -17,7 +17,7 @@ Their model is so precise that MyHeritage hired them to include a colorization t
 
 Additionally, MyHeritage recently added a new AI-based feature to this tool, by allowing users to enhance faces in their pictures:
 
-{% twitter 1276608740884721665 %}
+[Tweet](https://twitter.com/i/web/status/1276608740884721665)
 
 
 Using the tool from your MyHeritage picture collection is extremely simple. You just need to upload a picture and use the "enhance" and "colorize" buttons one after the other.
@@ -140,7 +140,7 @@ As of February 2021, MyHeritage now allows to animate portraits that were enhanc
 From the picture view, simply click the animation button and choose the face to animate. You can choose from 10 different animations. If the face was colorized, the animation will honor it.
 
 
-{% youtube JVm5dEa9VlY %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JVm5dEa9VlY" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## How about you?

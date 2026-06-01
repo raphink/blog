@@ -197,7 +197,7 @@ Here are some screenshots of a typical workflow.
 
 Here's a video demo of the setup described above:
 
-{% youtube 6LOaHsQDsiI %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6LOaHsQDsiI" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## In summary

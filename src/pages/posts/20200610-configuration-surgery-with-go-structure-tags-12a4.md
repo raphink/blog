@@ -56,7 +56,7 @@ The `create` and `destroy` methods, as well as the getters and setters for the P
 
 As for many other languages, there are Go bindings for Augeas: 
 
-{% github dominikh/go-augeas %}
+[GitHub — dominikh/go-augeas](https://github.com/dominikh/go-augeas)
 
 Much like the Ruby bindings, the go library lets you manipulate an Augeas handler to query the Augeas tree, modify it, and save it.
 
@@ -95,7 +95,7 @@ The tags above (`sql`, `gorm`, `json`, `short`, `long`, `description`, `env`, `e
 While Hercules is known in Greek mythology for his works —including cleaning the stables of King Augeas—, Narcissus is famous for gazing at his reflection in the water.
 
 
-{% github raphink/narcissus %}
+[GitHub — raphink/narcissus](https://github.com/raphink/narcissus)
 
 
 The Narcissus project is a Go library providing structure tags to manage configuration files with Augeas. It then maps structure tags to the Augeas tree dynamically, allowing you to expose any configuration file (or file stanza) known to Augeas as a Go structure.

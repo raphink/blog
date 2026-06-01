@@ -226,4 +226,4 @@ I'm using Pandoc to build the project with my own LaTeX template.
 
 The novel project can be found in this GitHub repository:
 
-{% github raphink/genearoman %}
+[GitHub — raphink/genearoman](https://github.com/raphink/genearoman)

@@ -12,7 +12,7 @@ Last week, we organized our last Cloud Native Romandie Meetup. Due to the curren
 
 The meetup was recorded and can be viewed again on YouTube.
 
-{% youtube 21DZ6hD97kM %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/21DZ6hD97kM" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 # Subjects
@@ -31,14 +31,14 @@ For this edition, we had presentations by [CloudBees](https://www.cloudbees.com/
 
 Next [Pierre-Yves Ritschard](https://twitter.com/pyr) and [Mathieu Corbin](https://twitter.com/_mcorbin) from [Exoscale](https://exoscale.com) presented [SKS](https://community.exoscale.com/documentation/sks/), a Kubernetes as-a-Service, operating the user’s cluster on their behalf and taking care of the underlying infrastructure.
 
-{% speakerdeck 080c0fc92a8a4d37b5d4ef02eb590d19 %}
+[Speaker Deck](https://speakerdeck.com/oembed.json?id=080c0fc92a8a4d37b5d4ef02eb590d19)
 
 
 ## Camptocamp DevOps Stack
 
 To finish, [Raphaël Pinson](https://twitter.com/raphink) presented Camptocamp's [DevOps Stack](https://devops-stack.io) project,  a framework to deploy a standardized Kubernetes platform and its ecosystem, using a GitOps approach.
 
-{% slideshare j0zNBoH48aFEO2 %}
+[SlideShare](https://www.slideshare.net/slideshow/embed_code/j0zNBoH48aFEO2)
 
 
 # Future Meetups

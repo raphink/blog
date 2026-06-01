@@ -88,6 +88,109 @@ function stripLeadingFrontmatter(body) {
     return m ? body.slice(m[0].length) : body;
 }
 
+// dev.to's "Liquid tags" (e.g. `{% youtube ID %}`) are not rendered by
+// gatsby-transformer-remark. Convert the ones we use into plain HTML/markdown
+// so the post stays readable on the static site.
+function convertLiquidTags(body) {
+    if (!body) return '';
+    let out = body;
+
+    // {% youtube VIDEOID [start=...] %}
+    out = out.replace(
+        /\{%\s*youtube\s+([A-Za-z0-9_-]+)(?:\s+[^%]*)?\s*%\}/g,
+        (_m, id) =>
+            `<iframe width="560" height="315" src="https://www.youtube.com/embed/${id}" ` +
+            `title="YouTube video" frameborder="0" ` +
+            `allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ` +
+            `allowfullscreen></iframe>`
+    );
+
+    // {% github user/repo [no-readme] %}
+    out = out.replace(
+        /\{%\s*github\s+([^\s%]+)(?:\s+[^%]*)?\s*%\}/g,
+        (_m, repo) =>
+            `[GitHub — ${repo}](https://github.com/${repo})`
+    );
+
+    // {% embed URL %} -> markdown link
+    out = out.replace(
+        /\{%\s*embed\s+(\S+?)\s*%\}/g,
+        (_m, url) => `[${url}](${url})`
+    );
+
+    // {% link path-or-slug %} -> link to dev.to (relative slugs become absolute)
+    out = out.replace(
+        /\{%\s*link\s+(\S+?)\s*%\}/g,
+        (_m, target) => {
+            const url = /^https?:\/\//i.test(target)
+                ? target
+                : `https://dev.to/${target.replace(/^\/+/, '')}`;
+            return `[${url}](${url})`;
+        }
+    );
+
+    // {% twitter STATUSID %}
+    out = out.replace(
+        /\{%\s*twitter\s+(\d+)\s*%\}/g,
+        (_m, id) =>
+            `[Tweet](https://twitter.com/i/web/status/${id})`
+    );
+
+    // {% gist URL [file=NAME] %}
+    out = out.replace(
+        /\{%\s*gist\s+(\S+?)(?:\s+file=(\S+?))?\s*%\}/g,
+        (_m, url, file) =>
+            file ? `[Gist — ${file}](${url})` : `[Gist](${url})`
+    );
+
+    // {% asciinema ID %}
+    out = out.replace(
+        /\{%\s*asciinema\s+(\w+)\s*%\}/g,
+        (_m, id) =>
+            `[asciinema cast ${id}](https://asciinema.org/a/${id})`
+    );
+
+    // {% speakerdeck ID %}
+    out = out.replace(
+        /\{%\s*speakerdeck\s+(\w+)\s*%\}/g,
+        (_m, id) =>
+            `[Speaker Deck](https://speakerdeck.com/oembed.json?id=${id})`
+    );
+
+    // {% slideshare ID %}
+    out = out.replace(
+        /\{%\s*slideshare\s+(\w+)\s*%\}/g,
+        (_m, id) =>
+            `[SlideShare](https://www.slideshare.net/slideshow/embed_code/${id})`
+    );
+
+    // {% slides ... %} / {% endslides %} wrappers: drop them.
+    out = out.replace(/\{%\s*slides\b[^%]*%\}/g, '');
+    out = out.replace(/\{%\s*endslides\s*%\}/g, '');
+
+    // {% slide image="URL" alt="..." %} -> markdown image
+    out = out.replace(
+        /\{%\s*slide\s+([^%]*?)\s*%\}/g,
+        (_m, attrs) => {
+            const img = /image\s*=\s*"([^"]+)"/.exec(attrs);
+            const alt = /alt\s*=\s*"([^"]+)"/.exec(attrs);
+            if (!img) return '';
+            return `![${alt ? alt[1] : ''}](${img[1]})`;
+        }
+    );
+
+    // Anything else we don't know about: warn but keep the literal text so
+    // it's easy to spot during review.
+    const leftover = out.match(/\{%[^%]+%\}/g);
+    if (leftover) {
+        for (const tag of leftover) {
+            console.warn(`  warn: unhandled liquid tag: ${tag}`);
+        }
+    }
+
+    return out;
+}
+
 function buildMarkdown(article) {
     const frontmatter = ['---', 'template: post'];
     frontmatter.push(`title: ${yamlString(article.title)}`);
@@ -113,7 +216,9 @@ function buildMarkdown(article) {
         );
     }
     frontmatter.push('---', '');
-    const body = stripLeadingFrontmatter(article.body_markdown || '');
+    const body = convertLiquidTags(
+        stripLeadingFrontmatter(article.body_markdown || '')
+    );
     return frontmatter.join('\n') + body.replace(/\s*$/, '') + '\n';
 }
 
@@ -157,14 +262,20 @@ async function main() {
         console.log(`  wrote ${path.relative(process.cwd(), filePath)}`);
     }
 
-    // Remove posts that were unpublished/deleted on dev.to.
+    // Remove posts that were unpublished/deleted on dev.to. Only consider
+    // files this script owns — detected by the presence of a `devto_url:`
+    // line in the frontmatter — so we don't clobber posts imported from
+    // other sources (e.g. blogspot).
     let removed = 0;
     for (const entry of fs.readdirSync(POSTS_DIR)) {
         if (!entry.endsWith('.md')) continue;
         if (keep.has(entry)) continue;
-        fs.unlinkSync(path.join(POSTS_DIR, entry));
+        const fullPath = path.join(POSTS_DIR, entry);
+        const head = fs.readFileSync(fullPath, 'utf8').slice(0, 2048);
+        if (!/^devto_url:\s/m.test(head)) continue;
+        fs.unlinkSync(fullPath);
         removed++;
-        console.log(`  removed ${path.join(POSTS_DIR, entry)}`);
+        console.log(`  removed ${fullPath}`);
     }
 
     console.log(

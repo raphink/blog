@@ -74,8 +74,8 @@ Our plugin is now ready, we only need to activate it in `~/.zshrc` by adding it 
 plugins=(git ruby kubectl kubectl_color)
 ```
 
-{% asciinema 363827 %}
+[asciinema cast 363827](https://asciinema.org/a/363827)
 
 and with `fx`:
 
-{% asciinema 364137 %}
+[asciinema cast 364137](https://asciinema.org/a/364137)

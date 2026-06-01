@@ -50,7 +50,7 @@ In this project, I picked public Flickr collections featuring historical photogr
 
 The code (both Ruby scripts and web interface) can be found on GitHub:
 
-{% github raphink/find-my-ancestor %}
+[GitHub — raphink/find-my-ancestor](https://github.com/raphink/find-my-ancestor)
 
 I've communicated about this project on various Genealogy websites and groups. Unfortunately, the results were not so great. Apart from celebrities and royalties, it's hard to identify random people in a database of "only" a million faces, though I am quite sure the algorithm did identify my great-great-uncle in two pictures from the Boer War.
 

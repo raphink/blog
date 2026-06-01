@@ -12,7 +12,7 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-plugin-stackbit-static-sass`,
+            resolve: `gatsby-plugin-static-sass`,
             options: {
                 inputFile: `${__dirname}/src/sass/main.scss`,
                 outputFile: `${__dirname}/public/assets/css/main.css`
@@ -33,13 +33,6 @@ module.exports = {
             resolve: `gatsby-remark-page-creator`,
             options: {
                 
-            }
-        },
-        {
-            resolve: `@stackbit/gatsby-plugin-menus`,
-            options: {
-                sourceUrlPath: `fields.url`,
-                pageContextProperty: `menus`,
             }
         }
     ]

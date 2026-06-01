@@ -2,7 +2,7 @@
 /*
  * Fetches all published articles for a dev.to user and writes them as
  * markdown files under src/pages/posts/ so Gatsby's gatsby-remark-page-creator
- * picks them up. This replaces the old stackbit-pull workflow.
+ * picks them up.
  *
  * Usage:
  *   DEVTO_USERNAME=raphink node scripts/fetch-devto-posts.js

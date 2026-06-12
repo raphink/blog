@@ -3,7 +3,7 @@ name: Sync posts from dev.to
 on:
   schedule:
     # Every day at 05:17 UTC. Offset minute to avoid the top-of-hour herd.
-    - cron: '17 5 * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
   push:
     branches: [master]

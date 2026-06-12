@@ -41,12 +41,26 @@ function headers() {
     return h;
 }
 
-async function fetchJson(url) {
-    const res = await fetch(url, { headers: headers() });
-    if (!res.ok) {
-        throw new Error(`GET ${url} -> ${res.status} ${res.statusText}`);
+function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function fetchJson(url, retries = 5) {
+    for (let attempt = 0; attempt <= retries; attempt++) {
+        const res = await fetch(url, { headers: headers() });
+        if (res.status === 429) {
+            const retryAfter = parseInt(res.headers.get('retry-after') || '0', 10);
+            const delay = retryAfter > 0 ? retryAfter * 1000 : Math.min(1000 * 2 ** attempt, 30000);
+            console.warn(`  rate limited on ${url}, waiting ${delay}ms (attempt ${attempt + 1}/${retries + 1})`);
+            if (attempt === retries) throw new Error(`GET ${url} -> 429 Too Many Requests (gave up after ${retries + 1} attempts)`);
+            await sleep(delay);
+            continue;
+        }
+        if (!res.ok) {
+            throw new Error(`GET ${url} -> ${res.status} ${res.statusText}`);
+        }
+        return res.json();
     }
-    return res.json();
 }
 
 async function listAllArticles(username) {
@@ -244,6 +258,8 @@ async function main() {
 
     for (const summary of summaries) {
         // Need /articles/{id} for body_markdown.
+        // Small delay to avoid hammering the rate limit.
+        await sleep(300);
         const article = await fetchJson(`${API_BASE}/articles/${summary.id}`);
         const fileName = fileNameFor(article);
         const filePath = path.join(POSTS_DIR, fileName);

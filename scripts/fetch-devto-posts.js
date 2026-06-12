@@ -65,8 +65,14 @@ async function fetchJson(url, retries = 5) {
 
 async function listAllArticles(username) {
     const out = [];
+    // When an API key is available use the authenticated endpoint which
+    // returns a complete list. The public /articles?username= endpoint can
+    // silently omit articles.
+    const baseUrl = API_KEY
+        ? `${API_BASE}/articles/me/published?`
+        : `${API_BASE}/articles?username=${encodeURIComponent(username)}&`;
     for (let page = 1; ; page++) {
-        const url = `${API_BASE}/articles?username=${encodeURIComponent(username)}&per_page=${PER_PAGE}&page=${page}`;
+        const url = `${baseUrl}per_page=${PER_PAGE}&page=${page}`;
         const batch = await fetchJson(url);
         if (!Array.isArray(batch) || batch.length === 0) break;
         out.push(...batch);

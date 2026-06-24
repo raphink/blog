@@ -252,10 +252,9 @@ function buildMarkdown(article) {
     if (article.url) {
         frontmatter.push(`devto_url: ${yamlString(article.url)}`);
     }
-    if (Array.isArray(article.tag_list) && article.tag_list.length) {
-        frontmatter.push(
-            `tags: [${article.tag_list.map(yamlString).join(', ')}]`
-        );
+    const tags = Array.isArray(article.tags) ? article.tags : [];
+    if (tags.length) {
+        frontmatter.push(`tags: [${tags.map(yamlString).join(', ')}]`);
     }
     if (article.series) {
         frontmatter.push(`series: ${yamlString(article.series)}`);

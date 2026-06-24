@@ -31,9 +31,13 @@
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
     "sass": "^1.77.0",
-    "sprintf-js": "^1.1.2"
+    "sprintf-js": "^1.1.2",
+    "swiper": "^8.4.7"
   },
   "devDependencies": {
     "turndown": "^7.2.4"
+  },
+  "allowScripts": {
+    "swiper@8.4.7": true
   }
 }

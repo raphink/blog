@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/you-cant-know-what-you-dont-know-37ap"
 devto_url: "https://dev.to/raphink/you-cant-know-what-you-dont-know-37ap"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 translation: /fr/posts/20260429-on-ne-peut-pas-savoir-ce-quon-ne-sait-pas
 ---
 This is the fourteenth and final post in my autism awareness month series.

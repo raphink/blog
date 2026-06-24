@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://instruqt.com/blog/guest-post-how-to-automatically-issue-badges-for-instruqt-labs"
 devto_url: "https://dev.to/raphink/how-to-automatically-issue-badges-for-instruqt-labs-18k5"
 tags: ["instruqt", "credly", "devrel", "go"]
+series: "Instruqt Automation"
 ---
 In the [first blog post](https://dev.to/raphink/streamlining-access-to-embedded-instruqt-labs-4ph9), we talked about making labs fun and enjoyable by adding elements of gamification. Issuing badges is a fantastic way to motivate learners, giving them a sense of accomplishment for the skills they've gained, and Isovalent issues [hundreds of them](https://www.credly.com/organizations/isovalent/badges) every month for the Cilium labs!
 

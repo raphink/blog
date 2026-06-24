@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/camptocamp-ops/getting-puppet-report-metrics-from-puppetdb-6bp"
 devto_url: "https://dev.to/camptocamp-ops/getting-puppet-report-metrics-from-puppetdb-6bp"
 tags: ["puppet", "showdev", "opensource", "devops"]
+series: "Puppet Infrastructure Performance"
 ---
 Puppet agent run reports contain useful metrics, such as the number of resources that were modified or failed to apply, or how much time each step of the run took.
 

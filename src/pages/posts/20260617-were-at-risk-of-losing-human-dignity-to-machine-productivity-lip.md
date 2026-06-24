@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/were-at-risk-of-losing-human-dignity-to-machine-productivity-lip"
 devto_url: "https://dev.to/raphink/were-at-risk-of-losing-human-dignity-to-machine-productivity-lip"
 tags: ["ai", "ethics", "humanity", "discuss"]
+series: "The Misallocated Machine"
 translation: /fr/posts/20260617-nous-risquons-de-perdre-la-dignite-humaine-au-profit-de-la-productivite-machine
 ---
 This is not an argument against AI. I use it daily, I build with it, and by most measures I'm on the winning side of the system it's creating, which is exactly why this argument needs to be made now, and why I'm in a position to make it.

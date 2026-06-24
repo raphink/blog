@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/defining-autism-the-shadow-and-the-object-3ca7"
 devto_url: "https://dev.to/raphink/defining-autism-the-shadow-and-the-object-3ca7"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 translation: /fr/posts/20260612-definir-lautisme-lombre-et-lobjet
 ---
 When I attend tech conferences, people usually know me — if they do — for my work on Cilium and my labs.

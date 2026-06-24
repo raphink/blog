@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/camptocamp-ops/taming-puppetserver-6-pt-ii-garbage-collection-2oh2"
 devto_url: "https://dev.to/camptocamp-ops/taming-puppetserver-6-pt-ii-garbage-collection-2oh2"
 tags: ["puppet", "observability", "java", "garbagecollection"]
+series: "Puppet Infrastructure Performance"
 ---
 Now that our internal Puppet Infrastructure is [migrated to Puppet 6 and tuned](https://dev.to/camptocamp-ops/taming-puppetserver-6-a-grafana-story-3c4f), it was time to switch a second infra to it.
 

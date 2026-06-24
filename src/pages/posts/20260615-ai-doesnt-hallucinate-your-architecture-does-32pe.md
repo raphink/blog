@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/ai-doesnt-hallucinate-your-architecture-does-32pe"
 devto_url: "https://dev.to/raphink/ai-doesnt-hallucinate-your-architecture-does-32pe"
 tags: ["ai", "architecture", "llm", "discuss"]
+series: "The Misallocated Machine"
 translation: /fr/posts/20260615-lia-nhallucine-pas-cest-votre-architecture-qui-hallucine
 ---
 Everyone is talking about hallucination. That's the wrong diagnosis.

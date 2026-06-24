@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/gen-ai-is-an-amplification-machine-d54"
 devto_url: "https://dev.to/raphink/gen-ai-is-an-amplification-machine-d54"
 tags: ["ai", "productivity", "career", "discuss"]
+series: "The Misallocated Machine"
 translation: /fr/posts/20260611-lia-generative-est-une-machine-a-amplifier
 ---
 I've been using generative AI pretty much daily for months now. And I've come to think most people fundamentally misunderstand what it does.

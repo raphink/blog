@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/camptocamp-ops/diffing-puppet-environments-1fno"
 devto_url: "https://dev.to/camptocamp-ops/diffing-puppet-environments-1fno"
 tags: ["puppet", "devops", "testing", "codequality"]
+series: "Puppet Code Quality"
 ---
 [Puppet](https://puppet.com) is a great tool for configuration managements, allowing to automate hundreds to thousands of nodes at a time in an Infrastructure-as-Code approach.
 

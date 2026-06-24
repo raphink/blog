@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/vanity-of-vanities-on-ai-slop-and-the-problem-of-content-for-contents-sake-4e6l"
 devto_url: "https://dev.to/raphink/vanity-of-vanities-on-ai-slop-and-the-problem-of-content-for-contents-sake-4e6l"
 tags: ["ai", "writing", "discuss", "career"]
+series: "The Misallocated Machine"
 translation: /fr/posts/20260612-vanite-des-vanites-sur-le-contenu-ia-et-le-contenu-pour-le-contenu
 ---
 3,000 years ago, Qoheleth surveyed everything done under the sun and called it vanity. Not pride — emptiness. The striving after wind. Labor that produces nothing that lasts, accumulates nothing that matters, leaves nothing behind worth finding.

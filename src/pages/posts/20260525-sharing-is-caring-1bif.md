@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/sharing-is-caring-1bif"
 devto_url: "https://dev.to/raphink/sharing-is-caring-1bif"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 translation: /fr/posts/20260525-partager-cest-prendre-soin
 ---
 Last month, I wrote a series on autism from the inside. The response surprised me — several people said it helped them understand someone in their life, or themselves. This is a follow-up on something I've been thinking about since.

@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/i-dont-know-the-invisible-crisis-3383"
 devto_url: "https://dev.to/raphink/i-dont-know-the-invisible-crisis-3383"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 translation: /fr/posts/20260428-je-ne-sais-pas-la-crise-invisible
 ---
 This is the thirteenth post in my autism awareness month series.

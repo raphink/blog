@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/the-filter-that-isnt-running-5d6d"
 devto_url: "https://dev.to/raphink/the-filter-that-isnt-running-5d6d"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 translation: /fr/posts/20260415-le-filtre-qui-ne-fonctionne-pas
 ---
 This is the seventh post in my autism awareness month series.

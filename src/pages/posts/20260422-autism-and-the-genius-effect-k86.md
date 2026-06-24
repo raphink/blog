@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/autism-and-the-genius-effect-k86"
 devto_url: "https://dev.to/raphink/autism-and-the-genius-effect-k86"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 translation: /fr/posts/20260422-lautisme-et-leffet-genie
 ---
 This is the tenth post in my autism awareness month series.

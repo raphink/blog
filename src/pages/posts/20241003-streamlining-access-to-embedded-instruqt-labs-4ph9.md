@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://instruqt.com/blog/guest-post-how-to-build-a-proxy-with-instruqt-go-to-simplify-instruqt-lab-automation"
 devto_url: "https://dev.to/raphink/streamlining-access-to-embedded-instruqt-labs-4ph9"
 tags: ["instruqt", "labs", "go", "devrel"]
+series: "Instruqt Automation"
 ---
 How do you teach a very technical topic to prospects and customers? How do you make it a smooth ride?
 

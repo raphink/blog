@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/autism-as-a-catalyst-322e"
 devto_url: "https://dev.to/raphink/autism-as-a-catalyst-322e"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 translation: /fr/posts/20260427-lautisme-comme-catalyseur
 ---
 This is the twelfth post in my autism awareness month series.

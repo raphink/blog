@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/tasks-that-dont-make-sense-26k3"
 devto_url: "https://dev.to/raphink/tasks-that-dont-make-sense-26k3"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 translation: /fr/posts/20260417-les-taches-qui-nont-pas-de-sens
 ---
 This is the eighth post in my autism awareness month series.

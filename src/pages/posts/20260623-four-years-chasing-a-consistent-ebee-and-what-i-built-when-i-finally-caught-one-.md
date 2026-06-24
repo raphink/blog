@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/four-years-chasing-a-consistent-ebee-and-what-i-built-when-i-finally-caught-one-35je"
 devto_url: "https://dev.to/raphink/four-years-chasing-a-consistent-ebee-and-what-i-built-when-i-finally-caught-one-35je"
 tags: ["ai", "showdev", "opensource", "devtools"]
+series: "The Misallocated Machine"
 translation: /fr/posts/20260623-quatre-ans-a-poursuivre-une-ebee-coherente
 ---
 I've been trying to generate a consistent cartoon bee with AI for four years.

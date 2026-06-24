@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/return-to-the-planet-of-the-autistics-447g"
 devto_url: "https://dev.to/raphink/return-to-the-planet-of-the-autistics-447g"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 translation: /fr/posts/20260608-retour-sur-la-planete-des-autistes
 ---
 *Field journal of Dr. E. Rempel, Department of Minority Neurological Studies, University of New Carthage (A work of fiction. "Allism" is a real term used by some autistic people to describe the neurological profile of the non-autistic majority.)*

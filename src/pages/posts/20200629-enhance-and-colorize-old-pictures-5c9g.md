@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/enhance-and-colorize-old-pictures-5c9g"
 devto_url: "https://dev.to/raphink/enhance-and-colorize-old-pictures-5c9g"
 tags: ["tutorial", "ai", "machinelearning", "photography"]
+series: "Machine Learning & Old Photographs"
 ---
 Over the last 2 years, Machine Learning has brought impressive breakthrough to image processing techniques. In particular, photography colorization has seen amazing progress, thanks mainly to the work of two developers: [Jason Antic](https://twitter.com/citnaj) and [Dana Kelley](https://twitter.com/danasday).
 

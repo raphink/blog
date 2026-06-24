@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/two-survival-systems-two-empathy-modes-5nl"
 devto_url: "https://dev.to/raphink/two-survival-systems-two-empathy-modes-5nl"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 translation: /fr/posts/20260529-deux-systemes-de-survie-deux-modes-dempathie
 ---
 Here are two scenes. They look unrelated. They're not.

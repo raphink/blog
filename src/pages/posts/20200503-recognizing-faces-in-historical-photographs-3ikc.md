@@ -8,6 +8,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 canonical_url: "https://dev.to/raphink/recognizing-faces-in-historical-photographs-3ikc"
 devto_url: "https://dev.to/raphink/recognizing-faces-in-historical-photographs-3ikc"
 tags: ["machinelearning", "facerecognition", "showdev", "opensource"]
+series: "Machine Learning & Old Photographs"
 ---
 Genealogy has been one of my main personal activities for years. As part of my research, I've collected old pictures of family members that cousins I met were kind enough to send me (usually in scanned form, although at times I was actually given the custody of original photographs).
 

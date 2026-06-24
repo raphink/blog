@@ -233,6 +233,14 @@ function injectLocalFields(content, localFields) {
     return content.replace(/\n---\n/, `\n${extra}\n---\n`);
 }
 
+function extractSeriesFromBody(body) {
+    if (!body) return null;
+    const m = body.match(/^---\s*\r?\n([\s\S]*?)\r?\n---/);
+    if (!m) return null;
+    const match = m[1].match(/^series:\s*(.+)$/m);
+    return match ? match[1].trim() : null;
+}
+
 function buildMarkdown(article) {
     const frontmatter = ['---', 'template: post'];
     frontmatter.push(`title: ${yamlString(article.title)}`);
@@ -256,8 +264,9 @@ function buildMarkdown(article) {
     if (tags.length) {
         frontmatter.push(`tags: [${tags.map(yamlString).join(', ')}]`);
     }
-    if (article.series) {
-        frontmatter.push(`series: ${yamlString(article.series)}`);
+    const series = article.series || extractSeriesFromBody(article.body_markdown);
+    if (series) {
+        frontmatter.push(`series: ${yamlString(series)}`);
     }
     frontmatter.push('---', '');
     const body = convertLiquidTags(

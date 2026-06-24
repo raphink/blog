@@ -8,6 +8,7 @@ translation: /posts/20260525-sharing-is-caring-1bif
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhk18ub0fjm2t6qn78qpl.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhk18ub0fjm2t6qn78qpl.png"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 ---
 Le mois dernier, j'ai publié une série sur l'autisme de l'intérieur. Les retours m'ont surpris — plusieurs personnes m'ont dit que ça les avait aidées à mieux comprendre quelqu'un dans leur entourage, ou elles-mêmes. Voici une suite, sur quelque chose à quoi je réfléchis depuis.
 

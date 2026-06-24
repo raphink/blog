@@ -8,6 +8,7 @@ translation: /posts/20260424-maintaining-friendships-on-the-spectrum-42lc
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4ac2ylsgvz666e3r99it.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4ac2ylsgvz666e3r99it.png"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 ---
 Ceci est le onzième billet de ma série pour le mois de sensibilisation à l'autisme.
 

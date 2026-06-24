@@ -8,6 +8,7 @@ translation: /posts/20260530-why-autism-hasnt-disappeared-a-hypothesis-1b6g
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc07999xlm6s98n639esf.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc07999xlm6s98n639esf.png"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 ---
 Dans le [billet précédent](https://dev.to/raphink/two-survival-systems-two-empathy-modes-5nl), j'ai décrit deux systèmes de survie : l'un orienté vers l'information, l'autre vers la cohésion sociale. Le rapport autistique à l'information produit des frictions — l'inconnu dans le café, le collègue qui envoie des liens quand on avait besoin d'une oreille attentive. Mais il produit aussi autre chose.
 

@@ -8,6 +8,7 @@ translation: /posts/20260413-when-the-sensory-threshold-moves-111p
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9luskj7j9jjb3tkunsjx.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9luskj7j9jjb3tkunsjx.png"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 ---
 C'est le sixième billet de ma série pour le mois de sensibilisation à l'autisme. Les précédents cherchaient à expliquer des mécanismes. Celui-ci est plus difficile à écrire, parce qu'il parle d'un dîner ordinaire en famille.
 

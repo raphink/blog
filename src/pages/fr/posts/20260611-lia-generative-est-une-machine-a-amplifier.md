@@ -8,6 +8,7 @@ translation: /posts/20260611-gen-ai-is-an-amplification-machine-d54
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcq4rq8s4q8vzet5us2uc.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcq4rq8s4q8vzet5us2uc.png"
 tags: ["ai", "productivity", "career", "discuss"]
+series: "The Misallocated Machine"
 ---
 J'utilise l'IA générative presque quotidiennement depuis des mois. Et j'en suis venu à penser que la plupart des gens se méprennent fondamentalement sur ce qu'elle fait.
 

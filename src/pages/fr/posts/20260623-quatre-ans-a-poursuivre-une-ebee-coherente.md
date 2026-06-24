@@ -8,6 +8,7 @@ translation: /posts/20260623-four-years-chasing-a-consistent-ebee-and-what-i-bui
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm6bajk4hqkix8ssaegkz.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm6bajk4hqkix8ssaegkz.png"
 tags: ["ai", "showdev", "opensource", "devtools"]
+series: "The Misallocated Machine"
 ---
 Ça fait quatre ans que j'essaie de générer une abeille cartoon cohérente avec de l'IA.
 

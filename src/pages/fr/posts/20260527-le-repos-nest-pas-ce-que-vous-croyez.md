@@ -8,6 +8,7 @@ translation: /posts/20260527-rest-is-not-what-you-think-1mbc
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6afefi210ooru3siqw0q.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6afefi210ooru3siqw0q.png"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 ---
 Ma femme dit qu'elle ne m'a jamais vu me reposer.
 

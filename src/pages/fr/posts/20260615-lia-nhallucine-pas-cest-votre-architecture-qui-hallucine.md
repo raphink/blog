@@ -8,6 +8,7 @@ translation: /posts/20260615-ai-doesnt-hallucinate-your-architecture-does-32pe
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0jn7tqw1rv0zxb25aq2g.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0jn7tqw1rv0zxb25aq2g.png"
 tags: ["ai", "architecture", "llm", "discuss"]
+series: "The Misallocated Machine"
 ---
 Tout le monde parle d'hallucination. C'est le mauvais diagnostic.
 

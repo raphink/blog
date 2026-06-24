@@ -8,6 +8,7 @@ translation: /posts/20260612-defining-autism-the-shadow-and-the-object-3ca7
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F53slwsy2tb40waagluuo.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F53slwsy2tb40waagluuo.png"
 tags: ["mentalhealth", "inclusion", "community", "career"]
+series: "Autism Awareness"
 ---
 Quand j'assiste à des conférences tech, les gens me connaissent — quand ils me connaissent — pour mon travail sur Cilium et mes labs.
 

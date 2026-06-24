@@ -1,4 +1,5 @@
 const path = require('path');
+const _ = require('lodash');
 
 exports.createSchemaCustomization = ({ actions }) => {
     actions.createTypes(`
@@ -11,32 +12,57 @@ exports.createSchemaCustomization = ({ actions }) => {
     `);
 };
 
-exports.createPages = async ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql, getNode, getNodesByType }) => {
     const { createPage } = actions;
 
     const result = await graphql(`
         {
             allMarkdownRemark {
                 nodes {
+                    id
+                    html
                     frontmatter {
                         tags
                         series
                         lang
+                        template
+                        title
+                        date
+                        excerpt
                     }
                 }
             }
         }
     `);
 
-    const nodes = result.data.allMarkdownRemark.nodes;
+    const siteNode = getNode('Site');
+    const siteDataNode = getNode('SiteData');
+    const site = {
+        siteMetadata: siteNode.siteMetadata,
+        pathPrefix: siteNode.pathPrefix,
+        data: _.get(siteDataNode, 'data', null)
+    };
 
-    // Collect unique tags and series, split by language
+    // Build the same pages array that gatsby-remark-page-creator builds
+    const pages = result.data.allMarkdownRemark.nodes.map(graphQLNode => {
+        const node = getNode(graphQLNode.id);
+        return {
+            url: node.fields.url,
+            relativePath: node.fields.relativePath,
+            relativeDir: node.fields.relativeDir,
+            base: node.fields.base,
+            name: node.fields.name,
+            frontmatter: node.frontmatter,
+            html: graphQLNode.html
+        };
+    });
+
     const tagSet = new Set();
     const frTagSet = new Set();
     const seriesSet = new Set();
     const frSeriesSet = new Set();
 
-    for (const node of nodes) {
+    for (const node of result.data.allMarkdownRemark.nodes) {
         const { tags, series, lang } = node.frontmatter;
         const isFr = lang === 'fr';
 
@@ -48,11 +74,13 @@ exports.createPages = async ({ actions, graphql }) => {
         }
     }
 
+    const sharedContext = { site, pages };
+
     tagSet.forEach(tag => {
         createPage({
             path: `/tags/${tag}/`,
             component: path.resolve('src/templates/tag.js'),
-            context: { tag, lang: null },
+            context: { ...sharedContext, tag, lang: null },
         });
     });
 
@@ -60,7 +88,7 @@ exports.createPages = async ({ actions, graphql }) => {
         createPage({
             path: `/fr/tags/${tag}/`,
             component: path.resolve('src/templates/tag.js'),
-            context: { tag, lang: 'fr' },
+            context: { ...sharedContext, tag, lang: 'fr' },
         });
     });
 
@@ -69,7 +97,7 @@ exports.createPages = async ({ actions, graphql }) => {
         createPage({
             path: `/series/${slug}/`,
             component: path.resolve('src/templates/series.js'),
-            context: { series, lang: null },
+            context: { ...sharedContext, series, lang: null },
         });
     });
 
@@ -78,7 +106,7 @@ exports.createPages = async ({ actions, graphql }) => {
         createPage({
             path: `/fr/series/${slug}/`,
             component: path.resolve('src/templates/series.js'),
-            context: { series, lang: 'fr' },
+            context: { ...sharedContext, series, lang: 'fr' },
         });
     });
 };

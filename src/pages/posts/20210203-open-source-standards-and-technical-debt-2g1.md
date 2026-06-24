@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fa1ozenortfr4pe0d1vad.png"
 canonical_url: "https://www.camptocamp.com/en/news-events/open-source-standards-and-technical-debt"
 devto_url: "https://dev.to/camptocamp-ops/open-source-standards-and-technical-debt-2g1"
+tags: ["devops", "agile", "opensource", "productivity"]
 ---
 Twenty years ago, Camptocamp was a pioneer company in Open Source adoption. Nowadays, [Open Source has become mainstream](https://ieeexplore.ieee.org/document/8880574) and the vast majority of the industry agrees on the many benefits of its practices. In fact, the Open Source model has become a *de facto* standard in some fields such as Web Frontend development.
 

@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Facg62zfhbt0aqt7g2dk4.jpg"
 canonical_url: "https://dev.to/camptocamp-ops/towards-a-modular-devops-stack-257c"
 devto_url: "https://dev.to/camptocamp-ops/towards-a-modular-devops-stack-257c"
+tags: ["devops", "kubernetes", "argocd", "infrastructure"]
 ---
 A year and a half ago, our infrastructure team at Camptocamp was faced with an increasingly problematic situation. We were provisioning more and more Kubernetes clusters, on different cloud providers. We used Terraform to deploy the infrastructure itself, and we had started to adopt [Argo CD](https://argoproj.github.io/cd/) to deploy applications on top of the cluster.
 

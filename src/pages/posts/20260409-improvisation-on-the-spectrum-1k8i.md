@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdfjs9nojxznk8qumnbuq.png"
 canonical_url: "https://dev.to/raphink/improvisation-on-the-spectrum-1k8i"
 devto_url: "https://dev.to/raphink/improvisation-on-the-spectrum-1k8i"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 translation: /fr/posts/20260409-improvisation-sur-le-spectre
 ---
 As you may know, this month is autism awareness month.

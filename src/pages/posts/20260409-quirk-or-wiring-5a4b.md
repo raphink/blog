@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv4dl9q36j2w1uupn74dx.png"
 canonical_url: "https://dev.to/raphink/quirk-or-wiring-5a4b"
 devto_url: "https://dev.to/raphink/quirk-or-wiring-5a4b"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 translation: /fr/posts/20260409-particularite-ou-cablage
 ---
 April is autism awareness month. Yesterday, I posted a comic strip about navigating social situations as an autistic person. I want to spend this month going deeper, with regular posts on experiencing autism.

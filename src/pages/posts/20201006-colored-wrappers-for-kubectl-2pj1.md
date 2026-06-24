@@ -5,6 +5,7 @@ date: "2020-10-06T19:50:58Z"
 excerpt: "Kubectl commands, but in color"
 canonical_url: "https://dev.to/raphink/colored-wrappers-for-kubectl-2pj1"
 devto_url: "https://dev.to/raphink/colored-wrappers-for-kubectl-2pj1"
+tags: ["kubernetes", "devops", "cli", "zsh"]
 ---
 When using Kubernetes, `kubectl` is the command we use the most to visualize and debug objects.
 

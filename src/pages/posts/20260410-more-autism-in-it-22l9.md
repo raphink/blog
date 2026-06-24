@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0o6jcb3psm8irpexv9n2.png"
 canonical_url: "https://dev.to/raphink/more-autism-in-it-22l9"
 devto_url: "https://dev.to/raphink/more-autism-in-it-22l9"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 translation: /fr/posts/20260410-plus-dautisme-dans-linformatique
 ---
 This is the fifth post in a series for autism awareness month.

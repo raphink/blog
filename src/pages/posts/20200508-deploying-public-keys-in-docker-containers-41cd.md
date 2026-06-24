@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2F1doni1qp0l9lqk240myf.png"
 canonical_url: "https://www.camptocamp.com/en/actualite/deploying-public-keys-in-docker-containers/"
 devto_url: "https://dev.to/camptocamp-ops/deploying-public-keys-in-docker-containers-41cd"
+tags: ["devops", "showdev", "opensource", "docker"]
 ---
 One of the hard problems to solve when using Docker in production is deploying secrets. In particular, public keys are hard to deploy because they are multiline and there is usually one key per authorized user.
 

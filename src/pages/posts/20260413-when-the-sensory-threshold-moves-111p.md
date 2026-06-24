@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9luskj7j9jjb3tkunsjx.png"
 canonical_url: "https://dev.to/raphink/when-the-sensory-threshold-moves-111p"
 devto_url: "https://dev.to/raphink/when-the-sensory-threshold-moves-111p"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 translation: /fr/posts/20260413-quand-le-seuil-sensoriel-se-deplace
 ---
 This is the sixth post in my autism awareness month series. The previous ones tried to explain mechanisms. This one is harder to write, because it's about a typical evening at the dinner table.

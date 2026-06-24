@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fgl8147l5s2ky6po9tdfi.png"
 canonical_url: "https://dev.to/camptocamp-ops/simple-secret-sharing-with-gopass-and-summon-40jk"
 devto_url: "https://dev.to/camptocamp-ops/simple-secret-sharing-with-gopass-and-summon-40jk"
+tags: ["security", "devops", "showdev", "opensource"]
 ---
 Secrets are a fundamental, yet complex issue in software deployment.
 

@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxbanner-1.png.pagespeed.ic.-LxmyH1pjm.webp"
 canonical_url: "https://www.camptocamp.com/actualite/integrating-prometheus-with-puppetdb/"
 devto_url: "https://dev.to/camptocamp-ops/integrating-prometheus-with-puppetdb-aom"
+tags: ["devops", "showdev", "puppet", "opensource"]
 ---
 Most companies that have switched their deployments to containers have faced this issue: traditional monitoring systems just don't cut it when it comes to observability of containerized applications. Instead of focusing on nodes and applications running on them, the cluster approach to container orchestration systems requires to target application instances, which can run on multiple nodes —even several times on a single node— and typically have short life spans.
 

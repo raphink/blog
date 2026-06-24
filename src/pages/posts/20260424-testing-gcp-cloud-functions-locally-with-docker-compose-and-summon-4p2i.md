@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftcl6nq9y51kkg0mac08i.png"
 canonical_url: "https://dev.to/raphink/testing-gcp-cloud-functions-locally-with-docker-compose-and-summon-4p2i"
 devto_url: "https://dev.to/raphink/testing-gcp-cloud-functions-locally-with-docker-compose-and-summon-4p2i"
+tags: ["security", "devops", "development", "serverless"]
 ---
 I use GCP Cloud Functions quite a bit, but testing them locally can be challenging.
 

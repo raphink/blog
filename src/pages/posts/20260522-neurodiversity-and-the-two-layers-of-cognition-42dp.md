@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1sbnva9jyujcu145d3s5.png"
 canonical_url: "https://dev.to/raphink/neurodiversity-and-the-two-layers-of-cognition-42dp"
 devto_url: "https://dev.to/raphink/neurodiversity-and-the-two-layers-of-cognition-42dp"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 translation: /fr/posts/20260522-neurodiversite-et-les-deux-couches-de-cognition
 ---
 About twenty years ago, while studying Gestion Mentale, a pedagogy framework developed by French educator Antoine de la Garanderie, our group was asked to do a simple mental calculation. Something like 47+35. Then explain what happened in our heads.

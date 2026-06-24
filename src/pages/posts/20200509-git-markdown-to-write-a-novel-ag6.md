@@ -5,6 +5,7 @@ date: "2020-05-09T06:20:31Z"
 excerpt: "Using Git and Markdown to write a novel"
 canonical_url: "https://dev.to/raphink/git-markdown-to-write-a-novel-ag6"
 devto_url: "https://dev.to/raphink/git-markdown-to-write-a-novel-ag6"
+tags: ["documentation", "markdown", "writing"]
 ---
 This year, I started writing a historical novel about a branch of my family. I quickly realized I needed some tooling to organize my data: what I know about the characters, the places, a general timeline, etc.
 

@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbjkdnrg8gmbjiazvn8l8.jpg"
 canonical_url: "https://dev.to/camptocamp-ops/how-to-allow-dynamic-terraform-provider-configuration-20ik"
 devto_url: "https://dev.to/camptocamp-ops/how-to-allow-dynamic-terraform-provider-configuration-20ik"
+tags: ["terraform", "devops", "go", "cfgmgmt"]
 ---
 [Terraform](http://terraform.io/) relies heavily on the concept of [providers](https://www.terraform.io/docs/providers/index.html), a base brick which consists of Go plugins enabling the communication with an API.
 

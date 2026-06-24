@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2ufldxkli3cw6efd7np6.png"
 canonical_url: "https://dev.to/raphink/a-15-year-puppet-journey-4o39"
 devto_url: "https://dev.to/raphink/a-15-year-puppet-journey-4o39"
+tags: ["puppet", "cfgmgmt", "devops", "community"]
 ---
 *Note: this is a personal blog post. It does not concern Camptocamp's partnership with Puppet Inc., which remains unchanged.*
 

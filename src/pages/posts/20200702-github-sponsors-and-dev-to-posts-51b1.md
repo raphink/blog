@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fqdp4swhb2kngx4cmsowd.png"
 canonical_url: "https://dev.to/raphink/github-sponsors-and-dev-to-posts-51b1"
 devto_url: "https://dev.to/raphink/github-sponsors-and-dev-to-posts-51b1"
+tags: ["discuss", "github", "sponsors", "meta"]
 ---
 Yesterday, I read [a blog post by Caleb Porzio](https://calebporzio.com/i-just-hit-dollar-100000yr-on-github-sponsors-heres-how-i-did-it) about making money from Open Source projects, in particular by leveraging the GitHub sponsors program.
 

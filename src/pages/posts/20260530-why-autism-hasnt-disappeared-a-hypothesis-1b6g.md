@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc07999xlm6s98n639esf.png"
 canonical_url: "https://dev.to/raphink/why-autism-hasnt-disappeared-a-hypothesis-1b6g"
 devto_url: "https://dev.to/raphink/why-autism-hasnt-disappeared-a-hypothesis-1b6g"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 translation: /fr/posts/20260530-pourquoi-lautisme-na-pas-disparu-une-hypothese
 ---
 In the [previous post](https://dev.to/raphink/two-survival-systems-two-empathy-modes-5nl), I described two survival systems: one oriented toward information, one toward social cohesion. The autistic information drive produces friction: the café stranger, the colleague with links when you needed a hug. But it also produces something else.

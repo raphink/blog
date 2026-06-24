@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
 canonical_url: "https://dev.to/camptocamp-ops/decomissioning-with-puppet-report-purge-unmanaged-resources-1jgk"
 devto_url: "https://dev.to/camptocamp-ops/decomissioning-with-puppet-report-purge-unmanaged-resources-1jgk"
+tags: ["puppet", "devops", "cfgmgmt", "tutorial"]
 ---
 Puppet lets you manage resources explicitely. But did you know you can also dynamically purge unmanaged resources using Puppet?
 

@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fw14l9yddz1nqrnvo3xfe.jpg"
 canonical_url: "https://dev.to/raphink/visibility-comments-b65"
 devto_url: "https://dev.to/raphink/visibility-comments-b65"
+tags: ["discuss", "writing", "beginners", "question"]
 ---
 After a few years of being inactive on dev.to, I've started actively posting about a month ago.
 

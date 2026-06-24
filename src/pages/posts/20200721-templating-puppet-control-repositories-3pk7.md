@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
 canonical_url: "https://dev.to/camptocamp-ops/templating-puppet-control-repositories-3pk7"
 devto_url: "https://dev.to/camptocamp-ops/templating-puppet-control-repositories-3pk7"
+tags: ["puppet", "devops", "cfgmgmt", "tutorial"]
 ---
 Puppet code is usually deployed using a [Control Repository](https://github.com/puppetlabs/control-repo), a single Git repository used by R10k (or Code Manager on Puppet Enterprise) to manage Puppet environments on Puppet Masters.
 

@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzptftzr4jxlblx11pf8n.jpg"
 canonical_url: "https://www.camptocamp.com/en/news-events/immutability-and-loose-coupling-a-match-made-in-heaven"
 devto_url: "https://dev.to/camptocamp-ops/immutability-loose-coupling-a-match-made-in-heaven-37kl"
+tags: ["devops", "containers", "immutability", "architecture"]
 ---
 When it comes to infrastructure and deployment automation, two opposite approaches share the podium: [mutable vs immutable management](https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure).
 

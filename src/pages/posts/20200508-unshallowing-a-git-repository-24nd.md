@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fnsbbm80zgqqypxyqtx1d.png"
 canonical_url: "https://dev.to/camptocamp-ops/unshallowing-a-git-repository-24nd"
 devto_url: "https://dev.to/camptocamp-ops/unshallowing-a-git-repository-24nd"
+tags: ["devops", "git", "cicd", "todayilearned"]
 ---
 GitLab allows to [perform shallow repository clones](https://docs.gitlab.com/ee/ci/yaml/#shallow-cloning) (and it seems to be the default in recent versions from what I can tell).
 

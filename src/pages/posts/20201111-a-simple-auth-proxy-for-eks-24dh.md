@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2F49dhgxfjbeqgo2kxo5sr.jpeg"
 canonical_url: "https://dev.to/camptocamp-ops/a-simple-auth-proxy-for-eks-24dh"
 devto_url: "https://dev.to/camptocamp-ops/a-simple-auth-proxy-for-eks-24dh"
+tags: ["aws", "kubernetes", "devops", "opensource"]
 ---
 [AWS EKS](https://aws.amazon.com/eks/) is a great option for a hosted Kubernetes cluster.
 

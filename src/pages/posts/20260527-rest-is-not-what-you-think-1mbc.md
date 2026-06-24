@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6afefi210ooru3siqw0q.png"
 canonical_url: "https://dev.to/raphink/rest-is-not-what-you-think-1mbc"
 devto_url: "https://dev.to/raphink/rest-is-not-what-you-think-1mbc"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 translation: /fr/posts/20260527-le-repos-nest-pas-ce-que-vous-croyez
 ---
 My wife says she's never seen me rest.

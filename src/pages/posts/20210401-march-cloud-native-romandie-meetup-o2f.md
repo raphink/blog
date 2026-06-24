@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcf6t3h6z8shvv26x7tqr.png"
 canonical_url: "https://dev.to/camptocamp-ops/march-cloud-native-romandie-meetup-o2f"
 devto_url: "https://dev.to/camptocamp-ops/march-cloud-native-romandie-meetup-o2f"
+tags: ["meetup", "cloudnative", "kubernetes", "cicd"]
 ---
 Last week, we organized our last Cloud Native Romandie Meetup. Due to the current situation, this was an online event like the previous occurrences.
 

@@ -5,6 +5,7 @@ date: "2020-05-13T20:47:24Z"
 excerpt: "When composing posts on dev.to, is there a way to dispensary display error messages so they appear as..."
 canonical_url: "https://dev.to/raphink/error-console-highlighting-1c60"
 devto_url: "https://dev.to/raphink/error-console-highlighting-1c60"
+tags: ["discuss", "question", "writing", "markdown"]
 ---
 When composing posts on dev.to, is there a way to dispensary display error messages so they appear as console output, but in red?
 

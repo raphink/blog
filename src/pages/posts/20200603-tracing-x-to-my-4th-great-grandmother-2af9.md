@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F59%2FIdeogram_house_mouse_chromosome_X.svg%2F1280px-Ideogram_house_mouse_chromosome_X.svg.png"
 canonical_url: "https://dev.to/raphink/tracing-x-to-my-4th-great-grandmother-2af9"
 devto_url: "https://dev.to/raphink/tracing-x-to-my-4th-great-grandmother-2af9"
+tags: ["dna", "genealogy", "dnapainting"]
 ---
 DNA tests are fun. They can give you a hint on your origins (though the results depend a lot on the data sets from the company providing them), get you in touch with cousins (or even closer relatives) you didn't know about, confirm genealogy hypothesis, and much more...
 

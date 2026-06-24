@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
 canonical_url: "https://dev.to/camptocamp-ops/automated-puppet-impact-analysis-1c1"
 devto_url: "https://dev.to/camptocamp-ops/automated-puppet-impact-analysis-1c1"
+tags: ["puppet", "devops", "codequality", "showdev"]
 ---
 In [last week's post](https://dev.to/camptocamp-ops/diffing-puppet-environments-1fno), I presented how to set up [Puppet Catalog Diff](https://github.com/camptocamp/puppet-catalog-diff) to diff between two Puppet environments.
 

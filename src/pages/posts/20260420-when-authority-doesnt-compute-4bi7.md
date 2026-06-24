@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyofsva8h0y5t7p9t2cm0.png"
 canonical_url: "https://dev.to/raphink/when-authority-doesnt-compute-4bi7"
 devto_url: "https://dev.to/raphink/when-authority-doesnt-compute-4bi7"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 translation: /fr/posts/20260420-quand-lautorite-ne-calcule-pas
 ---
 This is the ninth post in my autism awareness month series.

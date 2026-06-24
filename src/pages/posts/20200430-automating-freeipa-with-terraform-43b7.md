@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxterraform_bandeau.png.pagespeed.ic.neAGqH-_lX.webp"
 canonical_url: "https://www.camptocamp.com/actualite/automating-freeipa-with-terraform/"
 devto_url: "https://dev.to/camptocamp-ops/automating-freeipa-with-terraform-43b7"
+tags: ["terraform", "devops", "freeipa", "opensource"]
 ---
 [Terraform](https://www.terraform.io/) is great for cloud provisioning and has now become a standard tool to deploy infrastructures as code, in a DevOps fashion.
 

@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Ft2lnmj23y7z3cvgo0b1t.png"
 canonical_url: "https://dev.to/camptocamp-ops/taming-puppetserver-6-a-grafana-story-3c4f"
 devto_url: "https://dev.to/camptocamp-ops/taming-puppetserver-6-a-grafana-story-3c4f"
+tags: ["puppet", "observability", "containers", "kubernetes"]
 ---
 After some time preparing for the migration, yesterday was finally the time to switch our first production Puppetserver to Puppet 6.
 

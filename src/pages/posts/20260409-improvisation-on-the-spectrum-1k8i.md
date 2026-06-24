@@ -11,19 +11,21 @@ translation: /fr/posts/20260409-improvisation-sur-le-spectre
 ---
 As you may know, this month is autism awareness month.
 
-Many things will be posted about autism, and I'd like to share one: a little comic strip I made in July last year, in an attempt to capture of one many invisible quirks in the daily life of an autistic person.
+Many things will be posted about autism, and I'd like to share one: a little comic strip I made in July last year (updated in June 2026), in an attempt to capture of one many invisible quirks in the daily life of an autistic person.
 
 
-  ![Intro panel](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dfjs9nojxznk8qumnbuq.png)
-  ![Panel 1](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y1yvgfrz96f761i4do8g.png)
-  ![Panel 2](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cvz3hyk6xuqvyo6tw9m2.png)
-  ![Panel 3](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b4gmr7dmthjwyyw93khm.png)
-  ![Panel 4](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sbn52o4wqahc4woyfh9l.png)
-  ![Panel 5](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e3ju50fm4epuygnoec0n.png)
-  ![Panel 6](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yeiyvw35h3c5ccwnioj.png)
-  ![Panel 7](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jqqn2vaiq2zywmnkyg0s.png)
-  ![Panel 8](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/12chseq188pv27jnz3ov.png)
-  ![Panel 9](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bu90ner1oc2b12okefgl.png)
+  ![Title card: Improvisation on the Spectrum](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/x397hhbqk36y5yanm4at.png)
+  ![Raphaël plays flute while Jimena accompanies on piano. Caption: When it comes to music, I improvise easily...](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/42n31ms6g9ud3f6d6ydn.png)
+  ![Jimena looks anxious at the piano while Raphaël plays on. Caption: My wife, on the other hand, relies on the precise notes she's learned.](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/sod949ycn884sz2tha35.png)
+  ![Close-up of Raphaël playing flute, focused. Caption: If I play the wrong note...](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/ah9581egsggsst21bee5.png)
+  ![Same close-up, Raphaël unfazed, music notes floating freely. Caption: I just improvise my way through it.](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/0vb5qy2cad3adr160sx3.png)
+  ![Jimena smiles and waves at a social event, speech bubble: Oh sorry, I hadn't seen you before! Caption: My wife can improvise when she makes social mistakes.](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/5z1cf0ow40e7ur533uzk.png)
+  ![Raphaël stands frozen, arms out, distressed in a crowded hallway. Caption: But when I make a mistake socially, I freeze.](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/d5bmwpakrapuskkced55.png)
+  ![Raphaël arms crossed, thought bubble: I saw this person before but didn't greet them. Should I say hi now, or is it awkward?](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/y19bo0kq2492fuuncb7p.png)
+  ![A younger man confronts Raphaël, speech bubble: Why are you looking at me like that?](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/10vi7bz4xhcbnwnfw4pu.png)
+  ![Raphaël stands alone in the hallway, one hand raised helplessly. Caption: I can navigate social interactions by rules, but improvising often leads to awkward situations.](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/a4t97wynfwza8og366jb.png)
+
+
 
 
 This is the first of a series of posts on autism that I will be posting this month.

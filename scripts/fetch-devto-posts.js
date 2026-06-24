@@ -184,11 +184,27 @@ function convertLiquidTags(body) {
             `[SlideShare](https://www.slideshare.net/slideshow/embed_code/${id})`
     );
 
-    // {% slides ... %} / {% endslides %} wrappers: drop them.
-    out = out.replace(/\{%\s*slides\b[^%]*%\}/g, '');
-    out = out.replace(/\{%\s*endslides\s*%\}/g, '');
+    // {% slides %}...{% endslides %} -> CSS scroll carousel
+    out = out.replace(
+        /\{%\s*slides\b[^%]*%\}([\s\S]*?)\{%\s*endslides\s*%\}/g,
+        (_m, inner) => {
+            const slides = [];
+            const slideRe = /\{%\s*slide\s+([^%]*?)\s*%\}/g;
+            let match;
+            while ((match = slideRe.exec(inner)) !== null) {
+                const attrs = match[1];
+                const img = /image\s*=\s*"([^"]+)"/.exec(attrs);
+                const alt = /alt\s*=\s*"([^"]+)"/.exec(attrs);
+                if (img) {
+                    slides.push(`<img src="${img[1]}" alt="${alt ? alt[1] : ''}" loading="lazy" />`);
+                }
+            }
+            if (!slides.length) return '';
+            return `\n<div class="carousel">\n${slides.join('\n')}\n</div>\n`;
+        }
+    );
 
-    // {% slide image="URL" alt="..." %} -> markdown image
+    // Any remaining standalone {% slide %} tags outside a slides block
     out = out.replace(
         /\{%\s*slide\s+([^%]*?)\s*%\}/g,
         (_m, attrs) => {

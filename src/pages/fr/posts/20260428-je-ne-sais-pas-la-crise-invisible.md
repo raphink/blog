@@ -7,6 +7,7 @@ excerpt: "Quand « je ne sais pas » signifie que le sol sur lequel on vous dema
 translation: /posts/20260428-i-dont-know-the-invisible-crisis-3383
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23he0dl88a6t5s1x5ds5.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23he0dl88a6t5s1x5ds5.png"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 ---
 Treizième billet de ma série pour le mois de sensibilisation à l'autisme.
 

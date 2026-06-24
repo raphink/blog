@@ -7,6 +7,7 @@ excerpt: "L'IA n'a pas inventé le problème du contenu creux. Elle l'a rendu mo
 translation: /posts/20260612-vanity-of-vanities-on-ai-slop-and-the-problem-of-content-for-contents-sake-4e6l
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk56jejevdx91actlycb7.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk56jejevdx91actlycb7.png"
+tags: ["ai", "writing", "discuss", "career"]
 ---
 Il y a trois mille ans, Qohéleth passa en revue tout ce qui se fait sous le soleil et le qualifia de vanité. Non pas d'orgueil — de vide. La course après le vent. Un labeur qui ne produit rien de durable, n'accumule rien qui compte, ne laisse rien derrière soi qui mérite d'être trouvé.
 

@@ -7,6 +7,7 @@ excerpt: "Cette série a bien failli ne jamais exister. Une bande dessinée, la 
 translation: /posts/20260429-you-cant-know-what-you-dont-know-37ap
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flchkputvkzu3wxg4lybf.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flchkputvkzu3wxg4lybf.png"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 ---
 Ceci est le quatorzième et dernier billet de ma série pour le mois de sensibilisation à l'autisme.
 

@@ -7,6 +7,7 @@ excerpt: "Le débat sur l'IA nous contraint à définir l'intelligence. Or chaqu
 translation: /posts/20260617-were-at-risk-of-losing-human-dignity-to-machine-productivity-lip
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fop4cv1i0id31cvswys4q.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fop4cv1i0id31cvswys4q.png"
+tags: ["ai", "ethics", "humanity", "discuss"]
 ---
 Ce texte n'est pas un réquisitoire contre l'IA. Je l'utilise quotidiennement, je construis avec elle, et à presque tous les égards je figure du côté des gagnants du système qu'elle est en train de créer — ce qui est précisément pourquoi cet argument doit être formulé maintenant, et pourquoi je suis en mesure de le formuler.
 

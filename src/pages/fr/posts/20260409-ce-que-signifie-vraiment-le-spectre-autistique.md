@@ -7,6 +7,7 @@ excerpt: "Que signifie réellement « spectre autistique » ? La plupart des gen
 translation: /posts/20260409-what-autistic-spectrum-actually-means-4djb
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F45l6ba29yzghv6mrkysx.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F45l6ba29yzghv6mrkysx.png"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 ---
 La semaine dernière, j'ai écrit sur la différence entre un trait psychologique et un trait neurologique, et sur les raisons pour lesquelles l'autisme relève résolument de la seconde catégorie. Cette semaine, je voudrais aborder ce qui rend cette distinction plus difficile à percevoir : un malentendu très répandu sur ce que signifie le mot « spectre » dans le contexte de l'autisme.
 

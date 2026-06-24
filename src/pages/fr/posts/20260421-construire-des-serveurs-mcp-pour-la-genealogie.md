@@ -7,6 +7,7 @@ excerpt: "Comment j'ai utilisé Claude et des serveurs MCP pour transformer ma r
 translation: /posts/20260421-building-mcp-servers-for-genealogy-ai-powered-historical-research-261p
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3ch2earn53443pwxiifw.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3ch2earn53443pwxiifw.png"
+tags: ["genealogy", "ai", "opensource", "showdev"]
 ---
 Depuis plusieurs années, j'écris un livre qui retrace quatre branches familiales à travers l'Europe, le Moyen-Orient et l'Afrique du Sud. L'un des fils conducteurs suit Louis Rau, mon arrière-arrière-arrière-grand-oncle, qui présida la Compagnie Continentale Edison (CCE) au début du XXe siècle. Il était un Edison Pioneer — membre du cercle intérieur qui introduisit les systèmes électriques d'Edison en Europe.
 

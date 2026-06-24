@@ -7,6 +7,7 @@ excerpt: "Pourquoi y a-t-il autant de personnes autistes dans l'informatique ? O
 translation: /posts/20260410-more-autism-in-it-22l9
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0o6jcb3psm8irpexv9n2.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0o6jcb3psm8irpexv9n2.png"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 ---
 Ceci est le cinquième billet d'une série publiée pour le mois de sensibilisation à l'autisme.
 

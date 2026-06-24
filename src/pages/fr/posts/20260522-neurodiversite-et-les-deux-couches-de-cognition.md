@@ -7,6 +7,7 @@ excerpt: "Et si la façon dont vous pensez et ce que vous produisez étaient deu
 translation: /posts/20260522-neurodiversity-and-the-two-layers-of-cognition-42dp
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1sbnva9jyujcu145d3s5.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1sbnva9jyujcu145d3s5.png"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 ---
 Il y a une vingtaine d'années, lors d'une formation à la Gestion Mentale — une pédagogie développée par Antoine de la Garanderie —, notre groupe avait été invité à effectuer un calcul mental simple. Quelque chose comme 47+35. Puis à expliquer ce qui s'était passé dans nos têtes.
 

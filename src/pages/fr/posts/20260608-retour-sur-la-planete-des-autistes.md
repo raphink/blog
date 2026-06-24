@@ -7,6 +7,7 @@ excerpt: "Journal de terrain d'un chercheur imaginaire étudiant une curieuse co
 translation: /posts/20260608-return-to-the-planet-of-the-autistics-447g
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fis2flk0php5gnfwudtpg.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fis2flk0php5gnfwudtpg.png"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 ---
 *Journal de terrain du Dr E. Rempel, département des études neurologiques minoritaires, université de Nouvelle-Carthage. (Œuvre de fiction. L'« allisme » est un terme réel, employé par certaines personnes autistes pour désigner le profil neurologique de la majorité non autiste.)*
 

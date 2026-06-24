@@ -7,6 +7,7 @@ excerpt: "Une bande dessinée sur l'autisme"
 translation: /posts/20260409-improvisation-on-the-spectrum-1k8i
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdfjs9nojxznk8qumnbuq.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdfjs9nojxznk8qumnbuq.png"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 ---
 Comme vous le savez peut-être, ce mois d'avril est le mois de sensibilisation à l'autisme.
 

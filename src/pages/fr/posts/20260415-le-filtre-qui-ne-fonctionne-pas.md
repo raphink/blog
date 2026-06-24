@@ -7,6 +7,7 @@ excerpt: "Le cerveau autiste ne filtre pas les entrées sensorielles non pertine
 translation: /posts/20260415-the-filter-that-isnt-running-5d6d
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjawpgmw2jgcknfmdjyeo.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjawpgmw2jgcknfmdjyeo.png"
+tags: ["mentalhealth", "inclusion", "community", "career"]
 ---
 C'est le septième billet de ma série pour le mois de sensibilisation à l'autisme.
 

@@ -24,23 +24,29 @@ J'ai commencé avec Midjourney v3 peu après son lancement. Les résultats étai
 
 V4 puis v5 ont marqué un saut qualitatif. Je commençais à obtenir des images réellement utilisables : des arrière-plans atmosphériques pour des présentations, des scènes dramatiques, une carte réseau Cilium que j'utilise encore aujourd'hui. Mais pour le travail de personnage — une eBee précise, reconnaissable, reproductible — les modèles rataient systématiquement leur cible. Trop photoréaliste. Trop générique. Trop *abeille* et pas assez *eBee*.
 
-  ![Midjourney v5 — abeille mécanique steampunk](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/zf2e5olzkgmstlpgweqd.png)
-  ![Midjourney v5 — abeille réaliste sur du matériel serveur](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/v3pskgikj18c7ynlx9go.png)
-  ![Midjourney v5 — carte sur île flottante](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/d6j7z2loxma9uxbd0oz1.png)
+<div class="carousel">
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/zf2e5olzkgmstlpgweqd.png" alt="Midjourney v5 — abeille mécanique steampunk" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/v3pskgikj18c7ynlx9go.png" alt="Midjourney v5 — abeille réaliste sur du matériel serveur" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/d6j7z2loxma9uxbd0oz1.png" alt="Midjourney v5 — carte sur île flottante" loading="lazy" />
+</div>
 
 V6 s'est approché du style recherché, et v6.1 encore davantage. Une abeille aquarelle en blouse de laboratoire. Une abeille astronaute en cartoon. Une abeille devant un cottage. Chacune charmante. Aucune tout à fait juste.
 
 J'ai essayé les références de style, les tableaux de style, les références de personnage — les outils mêmes que Midjourney avait conçus pour ce type de problème. Aucun ne m'a donné la cohérence dont j'avais besoin d'une scène à l'autre.
 
-  ![Midjourney v6.1 — abeille scientifique aquarelle](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/x1svqqy2s1qwjxcse3xq.png)
-  ![Midjourney v6.1 — abeille astronaute en orbite](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/kazvqjdvok15xuj5p0ak.png)
-  ![Midjourney v6.1 — abeille cartoon à la porte d'un cottage](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/8qpibnkpivum3q96ux9w.png)
+<div class="carousel">
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/x1svqqy2s1qwjxcse3xq.png" alt="Midjourney v6.1 — abeille scientifique aquarelle" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/kazvqjdvok15xuj5p0ak.png" alt="Midjourney v6.1 — abeille astronaute en orbite" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/8qpibnkpivum3q96ux9w.png" alt="Midjourney v6.1 — abeille cartoon à la porte d'un cottage" loading="lazy" />
+</div>
 
 Fin 2024, le meilleur que je pouvais produire, c'était une eBee alpiniste, une eBee aviatrice, une eBee de Noël. Reconnaissables comme le même personnage d'une scène à l'autre. Assez proches pour être utilisables. Mais nécessitant encore des retouches manuelles, avec toujours cette légère bizarrerie que je n'arrivais pas à chasser par le seul travail du prompt.
 
-  ![Fin 2024 Midjourney — eBee alpiniste](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/d88nqa7nxdyai88l1r9v.png)
-  ![Fin 2024 Midjourney — eBee aviatrice dans un biplan](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/kp59dgdcha7dy5sfh7js.png)
-  ![Fin 2024 Midjourney — eBee de Noël sur un traîneau](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/xl4ncwttjm1wpk0szsfe.png)
+<div class="carousel">
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/d88nqa7nxdyai88l1r9v.png" alt="Fin 2024 Midjourney — eBee alpiniste" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/kp59dgdcha7dy5sfh7js.png" alt="Fin 2024 Midjourney — eBee aviatrice dans un biplan" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/xl4ncwttjm1wpk0szsfe.png" alt="Fin 2024 Midjourney — eBee de Noël sur un traîneau" loading="lazy" />
+</div>
 
 ## La percée (début 2025)
 
@@ -48,11 +54,13 @@ Puis OpenAI a sorti gpt-image-1, et du jour au lendemain, tout a changé.
 
 Je lui ai fourni quelques images de référence, et il m'a rendu ça :
 
-  ![gpt-image-1 — eBee baseball](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/pmtc0lr4gdgi4x5dx4wd.png)
-  ![gpt-image-1 — eBee Starfleet](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/g4xp3imr0w5l5auz130m.png)
-  ![gpt-image-1 — eBee basketball](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/n9ggia93wuv1zc05zlic.png)
-  ![gpt-image-1 — eBee aviatrice avec avion jouet](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/j1h3pyk84g6aw00e67vg.png)
-  ![gpt-image-1 — eBee samouraï](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/awvd142kk1pnc0cozuhu.png)
+<div class="carousel">
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/pmtc0lr4gdgi4x5dx4wd.png" alt="gpt-image-1 — eBee baseball" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/g4xp3imr0w5l5auz130m.png" alt="gpt-image-1 — eBee Starfleet" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/n9ggia93wuv1zc05zlic.png" alt="gpt-image-1 — eBee basketball" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/j1h3pyk84g6aw00e67vg.png" alt="gpt-image-1 — eBee aviatrice avec avion jouet" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/awvd142kk1pnc0cozuhu.png" alt="gpt-image-1 — eBee samouraï" loading="lazy" />
+</div>
 
 Le même personnage. Cinq costumes et scénarios entièrement différents. Indubitablement la même eBee.
 
@@ -68,10 +76,12 @@ La dérive a commencé immédiatement.
 
 Les fils de discussion ChatGPT sont à la fois votre contexte et votre handicap. Plus un fil s'allonge, plus il dérive — davantage d'étoiles dans le ciel d'une page à l'autre, des personnages qui changent subtilement, des décors qui glissent. Il n'existe pas de remède chirurgical. On ne peut pas défaire la dérive sans perdre tout le contexte utile qui l'a précédée.
 
-  ![de plus en plus d'étoiles](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/e8et5n7x4r5no33mrbfc.png)
-  ![de plus en plus d'étoiles](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/gup3bjocub77zw68dpnb.png)
-  ![de plus en plus d'étoiles](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/iayv25rn3cplb2zedlc4.png)
-  ![de plus en plus d'étoiles](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/0m9kffl8sl3csw9i6obq.png)
+<div class="carousel">
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/e8et5n7x4r5no33mrbfc.png" alt="de plus en plus d'étoiles" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/gup3bjocub77zw68dpnb.png" alt="de plus en plus d'étoiles" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/iayv25rn3cplb2zedlc4.png" alt="de plus en plus d'étoiles" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/0m9kffl8sl3csw9i6obq.png" alt="de plus en plus d'étoiles" loading="lazy" />
+</div>
 
 Je me suis retrouvé avec une architecture multi-fils : un fil pour le scénario, des fils séparés pour chaque type de scène, avec des copier-coller manuels entre eux pour éviter la contamination croisée. Ça fonctionnait, mais c'était fragile. La moindre dérive dans un fil se propageait vers l'avant. Le seul remède était de tout recommencer à zéro en perdant l'intégralité du travail.
 

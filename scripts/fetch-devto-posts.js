@@ -211,6 +211,28 @@ function convertLiquidTags(body) {
     return out;
 }
 
+// Fields that are maintained locally and must survive a sync overwrite.
+const LOCAL_FRONTMATTER_FIELDS = ['translation'];
+
+function extractLocalFields(existing) {
+    if (!existing) return {};
+    const m = existing.match(/^---\s*\r?\n([\s\S]*?)\r?\n---/);
+    if (!m) return {};
+    const result = {};
+    for (const field of LOCAL_FRONTMATTER_FIELDS) {
+        const re = new RegExp(`^${field}:\\s*(.+)$`, 'm');
+        const match = m[1].match(re);
+        if (match) result[field] = match[1].trim();
+    }
+    return result;
+}
+
+function injectLocalFields(content, localFields) {
+    if (!Object.keys(localFields).length) return content;
+    const extra = Object.entries(localFields).map(([k, v]) => `${k}: ${v}`).join('\n');
+    return content.replace(/\n---\n/, `\n${extra}\n---\n`);
+}
+
 function buildMarkdown(article) {
     const frontmatter = ['---', 'template: post'];
     frontmatter.push(`title: ${yamlString(article.title)}`);
@@ -275,11 +297,12 @@ async function main() {
         const existing = fs.existsSync(filePath)
             ? fs.readFileSync(filePath, 'utf8')
             : null;
-        if (existing === content) {
+        const contentWithLocal = injectLocalFields(content, extractLocalFields(existing));
+        if (existing === contentWithLocal) {
             unchanged++;
             continue;
         }
-        fs.writeFileSync(filePath, content);
+        fs.writeFileSync(filePath, contentWithLocal);
         written++;
         console.log(`  wrote ${path.relative(process.cwd(), filePath)}`);
     }

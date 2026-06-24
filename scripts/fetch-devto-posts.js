@@ -257,6 +257,9 @@ function buildMarkdown(article) {
             `tags: [${article.tag_list.map(yamlString).join(', ')}]`
         );
     }
+    if (article.series) {
+        frontmatter.push(`series: ${yamlString(article.series)}`);
+    }
     frontmatter.push('---', '');
     const body = convertLiquidTags(
         stripLeadingFrontmatter(article.body_markdown || '')

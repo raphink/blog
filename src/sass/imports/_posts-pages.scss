@@ -69,9 +69,18 @@
   margin: 1.5em 0;
   border-radius: 4px;
 
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 520px;
+  }
+
   img {
-    width: 100%;
+    max-width: 100%;
     max-height: 520px;
+    width: auto;
+    height: auto;
     object-fit: contain;
     background: _palette(bg);
     display: block;

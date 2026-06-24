@@ -1,5 +1,16 @@
 const path = require('path');
 
+exports.createSchemaCustomization = ({ actions }) => {
+    actions.createTypes(`
+        type MarkdownRemarkFrontmatter {
+            series: String
+            lang: String
+            translation: String
+            tags: [String]
+        }
+    `);
+};
+
 exports.createPages = async ({ actions, graphql }) => {
     const { createPage } = actions;
 

@@ -10,13 +10,22 @@ export default class Navigation extends React.Component {
             <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
               <div className="site-nav-wrap">
                 <div className="site-nav-inside">
-                  {_.get(this.props, 'pageContext.site.siteMetadata.header.has_nav') && 
+                  {_.get(this.props, 'pageContext.site.siteMetadata.header.has_nav') &&
                   <ul className="menu">
                     {_.map(_.get(this.props, 'pageContext.site.siteMetadata.header.nav_links'), (action, action_idx) => (
                     <li key={action_idx} className={classNames('menu-item', {'current-menu-item': _.get(this.props, 'pageContext.url') === _.get(action, 'url')})}>
                       <Link to={safePrefix(_.get(action, 'url'))}{...(_.get(action, 'new_window') ? {target: '_blank', rel: 'noopener'} : null)}>{_.get(action, 'label')}</Link>
                     </li>
                     ))}
+                    {_.get(this.props, 'pageContext.frontmatter.lang') === 'fr' ? (
+                    <li className="menu-item">
+                      <Link to={safePrefix('/')}>🇬🇧</Link>
+                    </li>
+                    ) : (
+                    <li className="menu-item">
+                      <Link to={safePrefix('/fr/')}>🇫🇷</Link>
+                    </li>
+                    )}
                   </ul>
                   }
                   {_.get(this.props, 'pageContext.site.siteMetadata.header.has_social') && 

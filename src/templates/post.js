@@ -27,14 +27,6 @@ export default class Post extends React.Component {
                           dateTime={moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%B %d, %Y')}</time>
                       </div>
                     </header>
-                    {_.get(this.props, 'pageContext.frontmatter.subtitle') && 
-                    <div className="post-subtitle">
-                      {htmlToReact(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
-                    </div>
-                    }
-                    <div className="post-content">
-                      {htmlToReact(_.get(this.props, 'pageContext.html'))}
-                    </div>
                     {_.get(this.props, 'pageContext.frontmatter.translation') &&
                     <div className="post-translation">
                       <Link to={safePrefix(_.get(this.props, 'pageContext.frontmatter.translation'))}>
@@ -42,6 +34,14 @@ export default class Post extends React.Component {
                       </Link>
                     </div>
                     }
+                    {_.get(this.props, 'pageContext.frontmatter.subtitle') &&
+                    <div className="post-subtitle">
+                      {htmlToReact(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
+                    </div>
+                    }
+                    <div className="post-content">
+                      {htmlToReact(_.get(this.props, 'pageContext.html'))}
+                    </div>
                     {_.get(this.props, 'pageContext.frontmatter.devto_url') &&
                     <footer className="post-meta post-source">
                       Originally published on <a href={_.get(this.props, 'pageContext.frontmatter.devto_url')} target="_blank" rel="noopener noreferrer">DEV</a>.

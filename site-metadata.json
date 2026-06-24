@@ -2,8 +2,8 @@
     "description": "Raphaël Pinson's personal blog",
     "header": {
         "title": "Raphaël Pinson",
-        "tagline": "Infrastructure Developer working @Isovalent. ",
-        "background_img": "images/header-bg.jpg",
+        "tagline": "Christian, late-diagnosed autistic, technologist.",
+        "background_img": "",
         "has_nav": true,
         "nav_links": [
             {

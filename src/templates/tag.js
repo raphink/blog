@@ -4,7 +4,8 @@ import moment from 'moment-strftime';
 
 import {Layout} from '../components/index';
 import Header from '../components/Header';
-import {getPages, Link, safePrefix} from '../utils';
+import {getPages, safePrefix} from '../utils';
+import PostCard from '../components/PostCard';
 import Footer from '../components/Footer';
 
 export default class Tag extends React.Component {
@@ -37,21 +38,7 @@ export default class Tag extends React.Component {
                   <h1 className="page-title">#{tag}</h1>
                   <div className="post-feed">
                     {_.map(display_posts, (post, post_idx) => (
-                    <article key={post_idx} className="post">
-                      <header className="post-header">
-                        <h2 className="post-title"><Link to={safePrefix(_.get(post, 'url'))} rel="bookmark">{_.get(post, 'frontmatter.title')}</Link></h2>
-                        <div className="post-meta">
-                          <time className="published"
-                            dateTime={moment(_.get(post, 'frontmatter.date')).strftime('%Y-%m-%d')}>{moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y')}</time>
-                        </div>
-                      </header>
-                      <div className="post-content">
-                        <p>{_.get(post, 'frontmatter.excerpt')}</p>
-                      </div>
-                      <p className="read-more">
-                        <Link className="read-more-link" to={safePrefix(_.get(post, 'url'))}>Keep reading <span className="icon-arrow-right" aria-hidden="true" /></Link>
-                      </p>
-                    </article>
+                      <PostCard key={post_idx} post={post} />
                     ))}
                   </div>
                 </main>

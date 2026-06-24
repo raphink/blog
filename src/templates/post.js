@@ -34,14 +34,11 @@ export default class Post extends React.Component {
                     <header className="post-header">
                       <h1 className="post-title">{_.get(this.props, 'pageContext.frontmatter.title')}</h1>
                       <div className="post-meta">
-                        Published on <time className="published"
+                        <time className="published"
                           dateTime={moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%B %d, %Y')}</time>
+                        {series && <span className="post-meta-sep"> · </span>}
+                        {series && <span className="post-series">{lang === 'fr' ? 'Série : ' : 'Series: '}<Link to={safePrefix(`${seriesBase}/${seriesSlug(series)}/`)}>{series}</Link></span>}
                       </div>
-                      {series &&
-                      <div className="post-series">
-                        <Link to={safePrefix(`${seriesBase}/${seriesSlug(series)}/`)}>{series}</Link>
-                      </div>
-                      }
                       {tags.length > 0 &&
                       <div className="post-tags">
                         {tags.map((tag, i) => (

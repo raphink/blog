@@ -13,10 +13,10 @@ export default class Branding extends React.Component {
                     alt={_.get(this.props, 'pageContext.site.siteMetadata.header.title') + ' Logo'} /></Link>
               </p>
               }
-              {(_.get(this.props, 'pageContext.frontmatter.template') === 'home') ? 
+              {(_.get(this.props, 'pageContext.frontmatter.template') === 'home') ?
               <h1 className="site-title"><Link to={safePrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title')}</Link></h1>
-               : 
-              <p className="site-title"><Link to={safePrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title')}</Link></p>
+               :
+              <p className="site-title"><Link to={safePrefix(_.get(this.props, 'pageContext.frontmatter.lang') === 'fr' ? '/fr/' : '/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title')}</Link></p>
               }
               {_.get(this.props, 'pageContext.site.siteMetadata.header.tagline') && 
               <p className="site-description">{_.get(this.props, 'pageContext.site.siteMetadata.header.tagline')}</p>

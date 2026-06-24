@@ -7,6 +7,7 @@ import HeaderAlt from '../components/HeaderAlt';
 import Header from '../components/Header';
 import {htmlToReact, Link, safePrefix} from '../utils';
 import Footer from '../components/Footer';
+import Giscus from '../components/Giscus';
 
 function seriesSlug(series) {
     return series.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/, '');
@@ -72,23 +73,7 @@ export default class Post extends React.Component {
                       Originally published on <a href={_.get(this.props, 'pageContext.frontmatter.blogspot_url')} target="_blank" rel="noopener noreferrer">Blogspot</a>.
                     </footer>
                     }
-                    <div className="giscus-comments">
-                      <script src="https://giscus.app/client.js"
-                        data-repo="raphink/blog"
-                        data-repo-id="MDEwOlJlcG9zaXRvcnkyNjU1MjAwMTQ="
-                        data-category="Announcements"
-                        data-category-id="DIC_kwDOD9ODjs4C_z6L"
-                        data-mapping="og:title"
-                        data-strict="1"
-                        data-reactions-enabled="1"
-                        data-emit-metadata="0"
-                        data-input-position="bottom"
-                        data-theme="preferred_color_scheme"
-                        data-lang={lang === 'fr' ? 'fr' : 'en'}
-                        crossOrigin="anonymous"
-                        async>
-                      </script>
-                    </div>
+                    <Giscus lang={lang} />
                   </article>
                 </main>
                 <Footer {...this.props} site={this.props.pageContext.site} page={this.props.pageContext} image={_.get(this.props, 'pageContext.frontmatter.content_img_path')} />

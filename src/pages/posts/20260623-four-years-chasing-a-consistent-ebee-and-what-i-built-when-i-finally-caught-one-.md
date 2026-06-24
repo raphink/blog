@@ -28,9 +28,11 @@ V4 and v5 brought a quality leap. I started getting images I could actually use:
 
 
 
-  ![Midjourney v5 — steampunk mechanical bee](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/zf2e5olzkgmstlpgweqd.png)
-  ![Midjourney v5 — realistic bee on server hardware](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/v3pskgikj18c7ynlx9go.png)
-  ![Midjourney v5 — floating island map](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/d6j7z2loxma9uxbd0oz1.png)
+<div class="carousel">
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/zf2e5olzkgmstlpgweqd.png" alt="Midjourney v5 — steampunk mechanical bee" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/v3pskgikj18c7ynlx9go.png" alt="Midjourney v5 — realistic bee on server hardware" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/d6j7z2loxma9uxbd0oz1.png" alt="Midjourney v5 — floating island map" loading="lazy" />
+</div>
 
 
 
@@ -39,18 +41,22 @@ V6 got closer in style, and v6.1 closer still. A watercolor bee scientist. A car
 I tried style references, style boards, and character references — Midjourney's own tools for exactly this problem. None of them gave me the consistency I needed across scenes.
 
 
-  ![Midjourney v6.1 — watercolor scientist bee](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/x1svqqy2s1qwjxcse3xq.png)
-  ![Midjourney v6.1 — astronaut bee orbiting Earth](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/kazvqjdvok15xuj5p0ak.png)
-  ![Midjourney v6.1 — cartoon bee at cottage door](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/8qpibnkpivum3q96ux9w.png)
+<div class="carousel">
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/x1svqqy2s1qwjxcse3xq.png" alt="Midjourney v6.1 — watercolor scientist bee" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/kazvqjdvok15xuj5p0ak.png" alt="Midjourney v6.1 — astronaut bee orbiting Earth" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/8qpibnkpivum3q96ux9w.png" alt="Midjourney v6.1 — cartoon bee at cottage door" loading="lazy" />
+</div>
 
 
 
 By late 2024, the best I could produce was a mountain climber eBee, an aviator eBee, a Christmas eBee. Recognizable as the same character across scenes. Close enough to use. But still requiring manual fixes, and always with that slight wrongness I couldn't prompt away.
 
 
-  ![Late 2024 Midjourney — mountain climber eBee](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/d88nqa7nxdyai88l1r9v.png)
-  ![Late 2024 Midjourney — aviator eBee in biplane](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/kp59dgdcha7dy5sfh7js.png)
-  ![Late 2024 Midjourney — Christmas eBee on sled](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/xl4ncwttjm1wpk0szsfe.png)
+<div class="carousel">
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/d88nqa7nxdyai88l1r9v.png" alt="Late 2024 Midjourney — mountain climber eBee" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/kp59dgdcha7dy5sfh7js.png" alt="Late 2024 Midjourney — aviator eBee in biplane" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/xl4ncwttjm1wpk0szsfe.png" alt="Late 2024 Midjourney — Christmas eBee on sled" loading="lazy" />
+</div>
 
 
 
@@ -62,11 +68,13 @@ I handed it a few reference images and got back this:
 
 
 
-  ![gpt-image-1 — baseball eBee](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/pmtc0lr4gdgi4x5dx4wd.png)
-  ![gpt-image-1 — Starfleet eBee](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/g4xp3imr0w5l5auz130m.png)
-  ![gpt-image-1 — basketball eBee](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/n9ggia93wuv1zc05zlic.png)
-  ![gpt-image-1 — aviator eBee with toy plane](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/j1h3pyk84g6aw00e67vg.png)
-  ![gpt-image-1 — samurai eBee](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/awvd142kk1pnc0cozuhu.png)
+<div class="carousel">
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/pmtc0lr4gdgi4x5dx4wd.png" alt="gpt-image-1 — baseball eBee" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/g4xp3imr0w5l5auz130m.png" alt="gpt-image-1 — Starfleet eBee" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/n9ggia93wuv1zc05zlic.png" alt="gpt-image-1 — basketball eBee" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/j1h3pyk84g6aw00e67vg.png" alt="gpt-image-1 — aviator eBee with toy plane" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/awvd142kk1pnc0cozuhu.png" alt="gpt-image-1 — samurai eBee" loading="lazy" />
+</div>
 
 
 Same character. Five completely different costumes and scenarios. Unmistakably the same eBee.
@@ -86,10 +94,12 @@ ChatGPT threads are both your context and your liability. The longer a thread ru
 
 
 
-  ![more and more stars](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/e8et5n7x4r5no33mrbfc.png)
-  ![more and more stars](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/gup3bjocub77zw68dpnb.png)
-  ![more and more stars](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/iayv25rn3cplb2zedlc4.png)
-  ![more and more stars](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/0m9kffl8sl3csw9i6obq.png)
+<div class="carousel">
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/e8et5n7x4r5no33mrbfc.png" alt="more and more stars" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/gup3bjocub77zw68dpnb.png" alt="more and more stars" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/iayv25rn3cplb2zedlc4.png" alt="more and more stars" loading="lazy" />
+<img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/0m9kffl8sl3csw9i6obq.png" alt="more and more stars" loading="lazy" />
+</div>
 
 
 I ended up with a multi-thread architecture: one thread for the storyline, separate threads for each scene type, with manual copy-pasting between them to prevent cross-contamination. It worked, but it was fragile. Any drift in any thread propagated forward. The only reset was starting from scratch and losing everything.

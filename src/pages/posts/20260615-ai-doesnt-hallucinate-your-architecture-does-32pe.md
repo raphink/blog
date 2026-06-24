@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0jn7tqw1rv0zxb25aq2g.png"
 canonical_url: "https://dev.to/raphink/ai-doesnt-hallucinate-your-architecture-does-32pe"
 devto_url: "https://dev.to/raphink/ai-doesnt-hallucinate-your-architecture-does-32pe"
+translation: /fr/posts/20260615-lia-nhallucine-pas-cest-votre-architecture-qui-hallucine
 ---
 Everyone is talking about hallucination. That's the wrong diagnosis.
 

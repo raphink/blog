@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3ch2earn53443pwxiifw.png"
 canonical_url: "https://dev.to/raphink/building-mcp-servers-for-genealogy-ai-powered-historical-research-261p"
 devto_url: "https://dev.to/raphink/building-mcp-servers-for-genealogy-ai-powered-historical-research-261p"
+translation: /fr/posts/20260421-construire-des-serveurs-mcp-pour-la-genealogie
 ---
 For years now, I’ve been writing a book tracing four family branches across Europe, the Middle East, and South Africa. One thread follows Louis Rau, my 3rd great-uncle, who was president of Compagnie Continentale Edison (CCE) in the early 1900s. He was an Edison Pioneer, part of the inner circle that brought Edison's electrical systems to Europe.
 

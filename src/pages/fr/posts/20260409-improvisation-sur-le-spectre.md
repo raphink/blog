@@ -1,17 +1,16 @@
 ---
 template: post
-title: "Improvisation on the Spectrum"
+lang: fr
+title: "Improvisation sur le spectre"
 date: "2026-04-09T16:36:00Z"
-excerpt: "A comic strip on autism"
+excerpt: "Une bande dessinée sur l'autisme"
+translation: /posts/20260409-improvisation-on-the-spectrum-1k8i
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdfjs9nojxznk8qumnbuq.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdfjs9nojxznk8qumnbuq.png"
-canonical_url: "https://dev.to/raphink/improvisation-on-the-spectrum-1k8i"
-devto_url: "https://dev.to/raphink/improvisation-on-the-spectrum-1k8i"
-translation: /fr/posts/20260409-improvisation-sur-le-spectre
 ---
-As you may know, this month is autism awareness month.
+Comme vous le savez peut-être, ce mois d'avril est le mois de sensibilisation à l'autisme.
 
-Many things will be posted about autism, and I'd like to share one: a little comic strip I made in July last year, in an attempt to capture of one many invisible quirks in the daily life of an autistic person.
+Beaucoup de choses seront publiées sur le sujet, et je voudrais en partager une : une petite bande dessinée que j'ai réalisée en juillet dernier, pour tenter de saisir l'une des nombreuses particularités invisibles du quotidien d'une personne autiste.
 
 
   ![Intro panel](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dfjs9nojxznk8qumnbuq.png)
@@ -26,6 +25,6 @@ Many things will be posted about autism, and I'd like to share one: a little com
   ![Panel 9](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bu90ner1oc2b12okefgl.png)
 
 
-This is the first of a series of posts on autism that I will be posting this month.
+C'est le premier d'une série de billets sur l'autisme que je publierai ce mois-ci.
 
-*This is part of my April 2026 autism awareness month series. First published [on LinkedIn on 2026-04-02](https://www.linkedin.com/posts/raphink_improvisation-on-the-spectrum-activity-7445480530982100992-3HxX).*
+*Ce billet fait partie de ma série d'avril 2026 pour le mois de sensibilisation à l'autisme. Publié initialement [sur LinkedIn le 2026-04-02](https://www.linkedin.com/posts/raphink_improvisation-on-the-spectrum-activity-7445480530982100992-3HxX).*

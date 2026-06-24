@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F45l6ba29yzghv6mrkysx.png"
 canonical_url: "https://dev.to/raphink/what-autistic-spectrum-actually-means-4djb"
 devto_url: "https://dev.to/raphink/what-autistic-spectrum-actually-means-4djb"
+translation: /fr/posts/20260409-ce-que-signifie-vraiment-le-spectre-autistique
 ---
 Last week, I wrote about the difference between a psychological trait and a neurological one, and why autism sits firmly in the second category. This week I want to address something that makes that distinction harder to see: a widespread misconception about what "spectrum" means in the context of autism.
 

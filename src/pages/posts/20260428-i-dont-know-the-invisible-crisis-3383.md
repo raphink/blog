@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23he0dl88a6t5s1x5ds5.png"
 canonical_url: "https://dev.to/raphink/i-dont-know-the-invisible-crisis-3383"
 devto_url: "https://dev.to/raphink/i-dont-know-the-invisible-crisis-3383"
+translation: /fr/posts/20260428-je-ne-sais-pas-la-crise-invisible
 ---
 This is the thirteenth post in my autism awareness month series.
 

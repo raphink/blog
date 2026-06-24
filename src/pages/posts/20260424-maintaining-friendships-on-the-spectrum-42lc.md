@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4ac2ylsgvz666e3r99it.png"
 canonical_url: "https://dev.to/raphink/maintaining-friendships-on-the-spectrum-42lc"
 devto_url: "https://dev.to/raphink/maintaining-friendships-on-the-spectrum-42lc"
+translation: /fr/posts/20260424-maintenir-des-amities-sur-le-spectre
 ---
 This is the eleventh post in my autism awareness month series.
 

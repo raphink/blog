@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6dnprgksyeudjwc97jhl.png"
 canonical_url: "https://dev.to/raphink/tasks-that-dont-make-sense-26k3"
 devto_url: "https://dev.to/raphink/tasks-that-dont-make-sense-26k3"
+translation: /fr/posts/20260417-les-taches-qui-nont-pas-de-sens
 ---
 This is the eighth post in my autism awareness month series.
 

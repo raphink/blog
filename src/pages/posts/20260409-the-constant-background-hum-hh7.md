@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjvxe7u8t83e9v3kxcuh4.png"
 canonical_url: "https://dev.to/raphink/the-constant-background-hum-hh7"
 devto_url: "https://dev.to/raphink/the-constant-background-hum-hh7"
+translation: /fr/posts/20260409-le-bourdonnement-de-fond-permanent
 ---
 This is the fourth post in a series for autism awareness month. Previous posts covered the neurological vs. psychological distinction and what "spectrum" actually means. This week: what runs in the background, all the time.
 

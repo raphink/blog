@@ -7,6 +7,7 @@ thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=c
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjawpgmw2jgcknfmdjyeo.png"
 canonical_url: "https://dev.to/raphink/the-filter-that-isnt-running-5d6d"
 devto_url: "https://dev.to/raphink/the-filter-that-isnt-running-5d6d"
+translation: /fr/posts/20260415-le-filtre-qui-ne-fonctionne-pas
 ---
 This is the seventh post in my autism awareness month series.
 

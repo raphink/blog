@@ -5,7 +5,7 @@ import moment from 'moment-strftime';
 import {Layout} from '../components/index';
 import HeaderAlt from '../components/HeaderAlt';
 import Header from '../components/Header';
-import {htmlToReact} from '../utils';
+import {htmlToReact, Link, safePrefix} from '../utils';
 import Footer from '../components/Footer';
 
 export default class Post extends React.Component {
@@ -35,6 +35,13 @@ export default class Post extends React.Component {
                     <div className="post-content">
                       {htmlToReact(_.get(this.props, 'pageContext.html'))}
                     </div>
+                    {_.get(this.props, 'pageContext.frontmatter.translation') &&
+                    <div className="post-translation">
+                      <Link to={safePrefix(_.get(this.props, 'pageContext.frontmatter.translation'))}>
+                        {_.get(this.props, 'pageContext.frontmatter.lang') === 'fr' ? '🇬🇧 Read in English' : '🇫🇷 Lire en français'}
+                      </Link>
+                    </div>
+                    }
                     {_.get(this.props, 'pageContext.frontmatter.devto_url') &&
                     <footer className="post-meta post-source">
                       Originally published on <a href={_.get(this.props, 'pageContext.frontmatter.devto_url')} target="_blank" rel="noopener noreferrer">DEV</a>.

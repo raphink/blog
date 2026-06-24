@@ -9,7 +9,8 @@ import Footer from '../components/Footer';
 
 export default class Home extends React.Component {
     render() {
-        let display_posts = _.orderBy(getPages(this.props.pageContext.pages, '/posts'), 'frontmatter.date', 'desc');
+        let posts_path = _.get(this.props, 'pageContext.frontmatter.posts_path') || '/posts';
+        let display_posts = _.orderBy(getPages(this.props.pageContext.pages, posts_path), 'frontmatter.date', 'desc');
         return (
             <Layout {...this.props}>
               <Header {...this.props} site={this.props.pageContext.site} page={this.props.pageContext} image={_.get(this.props, 'pageContext.site.siteMetadata.header.background_img')} />

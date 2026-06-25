@@ -10,7 +10,7 @@ content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit
 tags: ["mentalhealth", "inclusion", "community", "career"]
 series: "Autism Awareness"
 ---
-Avril est le mois de sensibilisation à l'autisme. Hier, j'ai publié une bande dessinée sur la navigation des situations sociales en tant que personne autiste. Je veux consacrer ce mois à approfondir le sujet, avec des billets réguliers sur le vécu de l'autisme.
+Avril est le mois de sensibilisation à l'autisme. Hier, j'ai publié une bande dessinée sur la gestion des situations sociales en tant que personne autiste. Je veux consacrer ce mois à approfondir le sujet, avec des billets réguliers sur le vécu de l'autisme.
 
 Un bon point de départ : la distinction entre un trait psychologique et un trait neurologique.
 
@@ -20,7 +20,7 @@ Ma femme est atteinte de myélite transverse, une maladie dans laquelle la gaine
 
 L'autisme opère sur un système différent — la cognition sociale plutôt que le contrôle moteur — mais la structure est identique. Tout le monde connaît des moments de maladresse sociale. La plupart des gens s'en remettent instinctivement : le circuit social automatique se recalibre. C'est ce filet de secours qui me fait défaut, de façon fiable. Je peux me préparer, étudier les signaux, prêter une attention soutenue, et manquer quand même quelque chose d'évident pour tout le monde autour de moi — parce que cela s'est passé dans un canal que je ne suis pas câblé pour traiter automatiquement.
 
-L'épuisement ne vient pas des interactions elles-mêmes. Il vient du fait de faire tourner manuellement ce que la plupart des gens font tourner en automatique.
+L'épuisement ne vient pas des interactions elles-mêmes. Il vient du fait d'accomplir manuellement ce que la plupart des gens accomplissent en automatique.
 
 Et voici ce qui importe vraiment : la myéline de ma femme ne va pas repousser. La kinésithérapie aide. Une canne aide à l'équilibre. Mais ce sont des compensations pour quelque chose qui n'est plus là — pas un remède à quelque chose qui aurait mal tourné. L'autisme, c'est pareil. On peut apprendre des stratégies, construire des contournements, développer des compensations — et beaucoup d'entre nous le font, de façon invisible, pendant des décennies. Mais on ne répare pas le câblage. On travaille autour de lui.
 

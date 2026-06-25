@@ -38,7 +38,7 @@ Mais ne s'y trompez pas : c'est une arme à double tranchant. Le même câblage 
 
 
 
-En résumé : l'autisme n'est pas une cause de génie, mais il peut fonctionner comme un amplificateur pour les cerveaux à haut débit.
+En résumé : l'autisme n'est pas une cause de génie, mais il peut fonctionner comme un amplificateur pour les cerveaux à forte capacité de traitement.
 
 
 

@@ -1,7 +1,7 @@
 ---
 template: post
 lang: fr
-title: "Quand l'autorité ne calcule pas"
+title: "Quand l'autorité ne fait pas sens"
 date: "2026-04-20T06:50:00Z"
 excerpt: "La plupart des gens apprennent tôt qu'on ne regarde pas un adulte dans les yeux quand on se fait gronder. Pour beaucoup de personnes autistes, ce réflexe ne s'est tout simplement jamais installé. Ce billet explore pourquoi — et ce qu'il advient du coût émotionnel de toute cette rébellion qui n'en était pas une."
 translation: /posts/20260420-when-authority-doesnt-compute-4bi7

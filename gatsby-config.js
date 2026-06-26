@@ -43,7 +43,7 @@ module.exports = {
                             siteMetadata {
                                 title
                                 description
-                                siteUrl: url
+                                url
                             }
                         }
                     }
@@ -55,8 +55,8 @@ module.exports = {
                                 title: node.frontmatter.title,
                                 description: node.frontmatter.excerpt,
                                 date: node.frontmatter.date,
-                                url: site.siteMetadata.siteUrl + node.fields.url,
-                                guid: site.siteMetadata.siteUrl + node.fields.url,
+                                url: site.siteMetadata.url + node.fields.url,
+                                guid: site.siteMetadata.url + node.fields.url,
                             })),
                         query: `
                             {
@@ -86,8 +86,8 @@ module.exports = {
                                 title: node.frontmatter.title,
                                 description: node.frontmatter.excerpt,
                                 date: node.frontmatter.date,
-                                url: site.siteMetadata.siteUrl + node.fields.url,
-                                guid: site.siteMetadata.siteUrl + node.fields.url,
+                                url: site.siteMetadata.url + node.fields.url,
+                                guid: site.siteMetadata.url + node.fields.url,
                             })),
                         query: `
                             {

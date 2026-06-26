@@ -4,8 +4,8 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
     site: 'https://raphink.info',
-    srcDir: './astro-src',
-    outDir: './astro-public',
+    srcDir: './src',
+    outDir: './dist',
     integrations: [react(), sitemap()],
     markdown: {
         shikiConfig: {

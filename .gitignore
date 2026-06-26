@@ -60,7 +60,9 @@ public
 
 # astro files
 .astro/
+dist/
 astro-public/
+.vscode/
 
 # Mac files
 .DS_Store

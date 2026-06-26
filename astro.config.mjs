@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
     site: 'https://raphink.info',
     srcDir: './src',
+    publicDir: './src/public',
     outDir: './dist',
     integrations: [react(), sitemap()],
     markdown: {

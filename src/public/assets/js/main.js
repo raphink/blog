@@ -47,3 +47,4 @@ document.querySelector('#to-top').addEventListener('click', function (e) {
 });
 
 };
+window.onGatsbyRouteUpdate();

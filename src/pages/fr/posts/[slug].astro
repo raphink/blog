@@ -3,7 +3,7 @@ import { getAllPosts } from '../../../lib/posts.js';
 import Post from '../../../layouts/Post.astro';
 
 export async function getStaticPaths() {
-    const allFiles = import.meta.glob('./*.md');
+    const allFiles = import.meta.glob('../../../content/fr/posts/*.md');
     const posts = getAllPosts('fr');
 
     return await Promise.all(posts.map(async post => {

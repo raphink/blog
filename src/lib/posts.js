@@ -2,8 +2,8 @@ import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 import matter from 'gray-matter';
 
-const POSTS_DIR = join(process.cwd(), 'src/pages/posts');
-const FR_POSTS_DIR = join(process.cwd(), 'src/pages/fr/posts');
+const POSTS_DIR = join(process.cwd(), 'src/content/posts');
+const FR_POSTS_DIR = join(process.cwd(), 'src/content/fr/posts');
 
 function parsePost(filePath, lang = 'en') {
     const content = readFileSync(filePath, 'utf-8');

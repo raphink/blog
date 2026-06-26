@@ -29,6 +29,92 @@ module.exports = {
             }
         },
         {
+            resolve: `gatsby-plugin-sitemap`,
+            options: {
+                output: `/sitemap.xml`,
+            }
+        },
+        {
+            resolve: `gatsby-plugin-feed`,
+            options: {
+                query: `
+                    {
+                        site {
+                            siteMetadata {
+                                title
+                                description
+                                siteUrl: url
+                            }
+                        }
+                    }
+                `,
+                feeds: [
+                    {
+                        serialize: ({ query: { site, allMarkdownRemark } }) =>
+                            allMarkdownRemark.edges.map(({ node }) => ({
+                                title: node.frontmatter.title,
+                                description: node.frontmatter.excerpt,
+                                date: node.frontmatter.date,
+                                url: site.siteMetadata.siteUrl + node.fields.url,
+                                guid: site.siteMetadata.siteUrl + node.fields.url,
+                            })),
+                        query: `
+                            {
+                                allMarkdownRemark(
+                                    filter: { frontmatter: { template: { eq: "post" }, lang: { ne: "fr" } } }
+                                    sort: { fields: [frontmatter___date], order: DESC }
+                                ) {
+                                    edges {
+                                        node {
+                                            fields { url }
+                                            frontmatter {
+                                                title
+                                                date
+                                                excerpt
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        `,
+                        output: `/rss.xml`,
+                        title: `Survivor Bias`,
+                    },
+                    {
+                        serialize: ({ query: { site, allMarkdownRemark } }) =>
+                            allMarkdownRemark.edges.map(({ node }) => ({
+                                title: node.frontmatter.title,
+                                description: node.frontmatter.excerpt,
+                                date: node.frontmatter.date,
+                                url: site.siteMetadata.siteUrl + node.fields.url,
+                                guid: site.siteMetadata.siteUrl + node.fields.url,
+                            })),
+                        query: `
+                            {
+                                allMarkdownRemark(
+                                    filter: { frontmatter: { template: { eq: "post" }, lang: { eq: "fr" } } }
+                                    sort: { fields: [frontmatter___date], order: DESC }
+                                ) {
+                                    edges {
+                                        node {
+                                            fields { url }
+                                            frontmatter {
+                                                title
+                                                date
+                                                excerpt
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        `,
+                        output: `/fr/rss.xml`,
+                        title: `Survivor Bias (français)`,
+                    },
+                ],
+            },
+        },
+        {
             resolve: `gatsby-remark-page-creator`,
             options: {
                 

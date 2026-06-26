@@ -1,0 +1,46 @@
+---
+// Initializes Swiper on any .carousel divs rendered from markdown
+---
+<script>
+import { Swiper } from 'swiper';
+import { Navigation, Pagination } from 'swiper';
+import 'swiper/css/bundle';
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.carousel').forEach(el => {
+        // Wrap images in swiper structure
+        const imgs = Array.from(el.querySelectorAll('img'));
+        if (!imgs.length) return;
+
+        el.classList.add('swiper');
+        const wrapper = document.createElement('div');
+        wrapper.className = 'swiper-wrapper';
+        imgs.forEach(img => {
+            const slide = document.createElement('div');
+            slide.className = 'swiper-slide';
+            slide.appendChild(img.cloneNode(true));
+            wrapper.appendChild(slide);
+        });
+
+        const prev = document.createElement('div');
+        prev.className = 'swiper-button-prev';
+        const next = document.createElement('div');
+        next.className = 'swiper-button-next';
+        const pagination = document.createElement('div');
+        pagination.className = 'swiper-pagination';
+
+        el.innerHTML = '';
+        el.appendChild(wrapper);
+        el.appendChild(prev);
+        el.appendChild(next);
+        el.appendChild(pagination);
+        el.classList.add('carousel-swiper');
+
+        new Swiper(el, {
+            modules: [Navigation, Pagination],
+            navigation: { prevEl: prev, nextEl: next },
+            pagination: { el: pagination, clickable: true },
+        });
+    });
+});
+</script>

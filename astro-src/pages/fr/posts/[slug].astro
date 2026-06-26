@@ -1,0 +1,23 @@
+---
+import { getAllPosts } from '../../../lib/posts.js';
+import Post from '../../../layouts/Post.astro';
+
+export async function getStaticPaths() {
+    const allFiles = import.meta.glob('../../../../src/pages/fr/posts/*.md');
+    const posts = getAllPosts('fr');
+
+    return await Promise.all(posts.map(async post => {
+        const key = Object.keys(allFiles).find(k => k.endsWith(`/${post.filename}.md`));
+        const mod = key ? await allFiles[key]() : null;
+        return {
+            params: { slug: post.filename },
+            props: { post, Content: mod?.Content },
+        };
+    }));
+}
+
+const { post, Content } = Astro.props;
+---
+<Post {...post} lang="fr" url={`/fr/posts/${post.filename}/`}>
+    {Content && <Content />}
+</Post>

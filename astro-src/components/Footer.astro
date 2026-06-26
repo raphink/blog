@@ -1,0 +1,12 @@
+---
+import { site } from '../site.js';
+---
+<footer id="colophon" class="site-footer">
+    <div class="site-footer-wrap">
+        <div class="site-footer-inside">
+            <p class="site-info">
+                <Fragment set:html={site.footer?.content || '&copy; All rights reserved.'} />
+            </p>
+        </div>
+    </div>
+</footer>

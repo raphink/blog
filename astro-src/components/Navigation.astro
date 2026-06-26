@@ -1,0 +1,39 @@
+---
+import { site } from '../site.js';
+
+interface Props {
+    currentUrl?: string;
+    lang?: string;
+}
+
+const { currentUrl, lang } = Astro.props;
+const isFr = lang === 'fr' || (currentUrl && currentUrl.startsWith('/fr'));
+---
+<nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+    <div class="site-nav-wrap">
+        <div class="site-nav-inside">
+            <ul class="menu">
+                {site.navLinks.map(link => (
+                    <li class={`menu-item${currentUrl === link.url ? ' current-menu-item' : ''}`}>
+                        <a href={link.url}>{link.label}</a>
+                    </li>
+                ))}
+                <li class="menu-item">
+                    {isFr
+                        ? <a href="/" title="Read in English">🇬🇧</a>
+                        : <a href="/fr/" title="Lire en français">🇫🇷</a>
+                    }
+                </li>
+            </ul>
+            <div class="social-links">
+                {site.socialLinks.map(link => (
+                    <a class="button-circle" href={link.url} target="_blank" rel="noopener">
+                        <span class={`fab ${link.icon}`} aria-hidden="true"></span>
+                        <span class="screen-reader-text">{link.label}</span>
+                    </a>
+                ))}
+            </div>
+        </div>
+    </div>
+</nav>
+<button id="menu-toggle" class="menu-toggle"><span class="screen-reader-text">Menu</span><span class="icon-menu" aria-hidden="true"></span></button>

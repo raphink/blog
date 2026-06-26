@@ -1,0 +1,99 @@
+---
+import Base from './Base.astro';
+import Sidebar from '../components/Sidebar.astro';
+import Footer from '../components/Footer.astro';
+import Giscus from '../components/Giscus.jsx';
+import CarouselInit from '../components/CarouselInit.astro';
+import { seriesSlug } from '../lib/posts.js';
+
+interface Props {
+    title: string;
+    date: string;
+    excerpt?: string;
+    thumb_img_path?: string;
+    content_img_path?: string;
+    canonical_url?: string;
+    blogspot_url?: string;
+    tags?: string[];
+    series?: string;
+    translation?: string;
+    lang?: string;
+    url: string;
+}
+
+const {
+    title, date, excerpt, thumb_img_path, content_img_path,
+    canonical_url, blogspot_url, tags, series, translation, lang, url
+} = Astro.props;
+
+const isFr = lang === 'fr';
+const tagsBase = isFr ? '/fr/tags' : '/tags';
+const seriesBase = isFr ? '/fr/series' : '/series';
+
+const dateObj = new Date(date);
+const formattedDate = dateObj.toLocaleDateString(isFr ? 'fr-FR' : 'en-US', {
+    year: 'numeric', month: 'long', day: 'numeric'
+});
+
+const seriesLabel = isFr ? 'Série' : 'Series';
+const translationLabel = translation
+    ? (isFr ? '🇬🇧 Read in English' : '🇫🇷 Lire en français')
+    : null;
+---
+<Base title={title} description={excerpt} ogTitle={title} lang={lang}>
+    <div id="page" class={`site palette-yellow`}>
+        <Sidebar currentUrl={url} lang={lang} />
+        <div id="content" class="site-content">
+            <main id="main" class="site-main inner">
+                <article class="post">
+                    <header class="post-header">
+                        <h1 class="post-title">{title}</h1>
+                        <div class="post-meta">
+                            <time class="published" datetime={dateObj.toISOString().split('T')[0]}>
+                                {formattedDate}
+                            </time>
+                            {series && (
+                                <span class="post-series">
+                                    {' · '}{seriesLabel}: <a href={`${seriesBase}/${seriesSlug(series)}/`}>{series}</a>
+                                </span>
+                            )}
+                        </div>
+                        {tags && tags.length > 0 && (
+                            <div class="post-tags">
+                                {tags.map(tag => (
+                                    <a class="post-tag" href={`${tagsBase}/${tag}/`}>#{tag}</a>
+                                ))}
+                            </div>
+                        )}
+                    </header>
+                    {translation && (
+                        <div class="post-translation">
+                            <a href={translation}>{translationLabel}</a>
+                        </div>
+                    )}
+                    {(content_img_path || thumb_img_path) && (
+                        <div class="post-thumbnail">
+                            <img src={content_img_path || thumb_img_path} alt={title} />
+                        </div>
+                    )}
+                    <div class="post-content">
+                        <slot />
+                    </div>
+                    {canonical_url && !blogspot_url && (
+                        <footer class="post-meta post-source">
+                            Originally published on <a href={canonical_url} target="_blank" rel="noopener noreferrer">dev.to</a>.
+                        </footer>
+                    )}
+                    {blogspot_url && (
+                        <footer class="post-meta post-source">
+                            Originally published on <a href={blogspot_url} target="_blank" rel="noopener noreferrer">Blogspot</a>.
+                        </footer>
+                    )}
+                    <Giscus lang={lang} client:only="react" />
+                    <CarouselInit />
+                </article>
+            </main>
+            <Footer />
+        </div>
+    </div>
+</Base>

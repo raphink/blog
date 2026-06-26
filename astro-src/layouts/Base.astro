@@ -1,0 +1,42 @@
+---
+import { site } from '../site.js';
+
+interface Props {
+    title?: string;
+    description?: string;
+    ogTitle?: string;
+    lang?: string;
+}
+
+const { title, description, ogTitle, lang = 'en' } = Astro.props;
+const pageTitle = title ? `${title} - ${site.title}` : site.title;
+const pageDescription = description || site.description;
+---
+<!DOCTYPE html>
+<html lang={lang}>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <meta property="og:title" content={ogTitle || title || site.title} />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="alternate" type="application/rss+xml" title={site.title} href="/rss.xml" />
+    {lang === 'fr' && <link rel="alternate" type="application/rss+xml" title={`${site.title} — français`} href="/fr/rss.xml" />}
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F1DK6MCNH6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-F1DK6MCNH6');
+    </script>
+</head>
+<body class={`palette-${site.palette}`}>
+    <div id="page" class={`site palette-${site.palette}`}>
+        <slot />
+    </div>
+</body>
+</html>

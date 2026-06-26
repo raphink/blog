@@ -1,0 +1,28 @@
+---
+import { site } from '../site.js';
+import Navigation from './Navigation.astro';
+
+interface Props {
+    currentUrl?: string;
+    lang?: string;
+}
+
+const { currentUrl, lang } = Astro.props;
+const isFr = lang === 'fr';
+const homeUrl = isFr ? '/fr/' : '/';
+---
+<header id="masthead" class="site-header bg--loaded">
+    <div class="site-header-scroll">
+        <div class="site-header-inside">
+            <div class="site-header-vertical" style="vertical-align: top">
+                <div class="site-branding">
+                    <p class="site-title">
+                        <a href={homeUrl}>{site.author}</a>
+                    </p>
+                    <p class="site-description">{site.tagline}</p>
+                </div>
+                <Navigation currentUrl={currentUrl} lang={lang} />
+            </div>
+        </div>
+    </div>
+</header>

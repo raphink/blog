@@ -1,0 +1,40 @@
+---
+import { getAllPosts, seriesSlug } from '../../lib/posts.js';
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import Footer from '../../components/Footer.astro';
+import PostCard from '../../components/PostCard.astro';
+
+export async function getStaticPaths() {
+    const posts = getAllPosts('en');
+    const seriesMap = {};
+    posts.forEach(p => {
+        if (p.series) {
+            const slug = seriesSlug(p.series);
+            if (!seriesMap[slug]) seriesMap[slug] = { name: p.series, posts: [] };
+            seriesMap[slug].posts.push(p);
+        }
+    });
+    return Object.entries(seriesMap).map(([slug, { name, posts }]) => ({
+        params: { slug },
+        props: { name, posts: posts.sort((a, b) => new Date(a.date) - new Date(b.date)) },
+    }));
+}
+
+const { name, posts } = Astro.props;
+---
+<Base title={name}>
+    <Sidebar lang="en" />
+    <div id="content" class="site-content">
+        <main id="main" class="site-main inner">
+            <h1 class="page-title">{name}</h1>
+            <div class="post-feed">
+                {posts.map((post, i) => (
+                    <PostCard url={post.url} title={post.title} date={post.date}
+                        excerpt={post.excerpt} thumb={post.thumb_img_path} seriesIndex={i + 1} />
+                ))}
+            </div>
+        </main>
+        <Footer />
+    </div>
+</Base>

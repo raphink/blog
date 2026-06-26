@@ -1,3 +1,3 @@
 [build]
-publish = "public"
-command = "./ssg-build.sh"
+publish = "astro-public"
+command = "npm run astro:build"

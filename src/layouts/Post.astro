@@ -41,9 +41,8 @@ const translationLabel = translation
     : null;
 ---
 <Base title={title} description={excerpt} ogTitle={title} lang={lang}>
-    <div id="page" class={`site palette-yellow`}>
-        <Sidebar currentUrl={url} lang={lang} />
-        <div id="content" class="site-content">
+    <Sidebar currentUrl={url} lang={lang} />
+    <div id="content" class="site-content">
             <main id="main" class="site-main inner">
                 <article class="post">
                     <header class="post-header">
@@ -95,5 +94,4 @@ const translationLabel = translation
             </main>
             <Footer />
         </div>
-    </div>
 </Base>

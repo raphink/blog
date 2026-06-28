@@ -31,7 +31,7 @@ const PER_PAGE = parseInt(process.env.PER_PAGE || '50', 10);
 const POSTS_DIR = path.resolve(
     __dirname,
     '..',
-    process.env.POSTS_DIR || 'src/pages/posts'
+    process.env.POSTS_DIR || 'src/content/posts'
 );
 
 if (!HOST) {

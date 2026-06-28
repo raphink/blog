@@ -24,7 +24,7 @@ const API_KEY = process.env.DEVTO_API_KEY || '';
 const POSTS_DIR = path.resolve(
     __dirname,
     '..',
-    process.env.POSTS_DIR || 'src/pages/posts'
+    process.env.POSTS_DIR || 'src/content/posts'
 );
 
 if (!USERNAME) {

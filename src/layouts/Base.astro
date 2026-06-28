@@ -5,10 +5,11 @@ interface Props {
     title?: string;
     description?: string;
     ogTitle?: string;
+    ogImage?: string;
     lang?: string;
 }
 
-const { title, description, ogTitle, lang = 'en' } = Astro.props;
+const { title, description, ogTitle, ogImage, lang = 'en' } = Astro.props;
 const pageTitle = title ? `${title} - ${site.title}` : site.title;
 const pageDescription = description || site.description;
 ---
@@ -20,6 +21,9 @@ const pageDescription = description || site.description;
     <title>{pageTitle}</title>
     <meta name="description" content={pageDescription} />
     <meta property="og:title" content={ogTitle || title || site.title} />
+    <meta property="og:description" content={pageDescription} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta property="og:type" content="website" />
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

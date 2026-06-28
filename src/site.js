@@ -7,7 +7,6 @@ export const site = {
     palette: 'yellow',
     navLinks: [
         { label: 'Home', url: '/' },
-        { label: 'Contact', url: '/contact/' },
     ],
     socialLinks: [
         { label: 'GitHub', url: 'https://github.com/raphink', icon: 'fa-github' },

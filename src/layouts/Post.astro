@@ -40,7 +40,7 @@ const translationLabel = translation
     ? (isFr ? '🇬🇧 Read in English' : '🇫🇷 Lire en français')
     : null;
 ---
-<Base title={title} description={excerpt} ogTitle={title} lang={lang}>
+<Base title={title} description={excerpt} ogTitle={title} ogImage={content_img_path || thumb_img_path} lang={lang}>
     <Sidebar currentUrl={url} lang={lang} />
     <div id="content" class="site-content">
             <main id="main" class="site-main inner">

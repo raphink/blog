@@ -1,40 +1,15 @@
 {
   "name": "famous-zucchini",
-  "description": "raphink.info — personal blog (Gatsby + dev.to sync)",
+  "description": "raphink.info — personal blog (Astro + dev.to sync)",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "build": "gatsby build --prefix-paths",
-    "serve": "gatsby serve",
     "astro:dev": "astro dev --port 8002",
     "astro:build": "astro build"
   },
   "dependencies": {
-    "@deckdeckgo/highlight-code": "^2.5.1",
-    "babel-runtime": "^6.26.0",
-    "classnames": "^2.2.6",
-    "fs-extra": "^7.0.1",
-    "gatsby": "^2.32.13",
-    "gatsby-plugin-feed": "^2.13.1",
-    "gatsby-plugin-react-helmet": "^3.10.0",
-    "gatsby-plugin-sitemap": "^2.12.0",
-    "gatsby-remark-highlight-code": "^2.2.0",
-    "gatsby-source-filesystem": "^2.11.1",
-    "gatsby-transformer-remark": "^2.16.1",
     "gray-matter": "^4.0.3",
-    "js-yaml": "^3.12.2",
-    "lodash": "^4.17.11",
-    "marked": "^0.6.1",
-    "moment": "^2.23.0",
-    "moment-strftime": "^0.5.0",
-    "react-helmet": "^5.2.0",
-    "react-html-parser": "^2.0.2",
-    "react-script-tag": "^1.1.2",
-    "rehype-react": "^3.0.2",
     "sass": "^1.77.0",
-    "sprintf-js": "^1.1.2",
     "swiper": "^8.4.7"
   },
   "devDependencies": {
@@ -42,8 +17,6 @@
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^7.0.3",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
     "turndown": "^7.2.4"
   },
   "allowScripts": {

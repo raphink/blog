@@ -10,7 +10,7 @@ Category:
 
 Other
 
-[![](http://web.archive.org/web/20041207171041/http://www.shakespeareco.org/logo_stamp.gif)](http://web.archive.org/web/20041207171041/http://www.shakespeareco.org/)
+[![](http://web.archive.org/web/20050205140807im_/http://www.shakespeareco.org/logo_stamp.gif)](http://web.archive.org/web/20041207171041/http://www.shakespeareco.org/)
 
 [**S**hakespeare and Co](http://web.archive.org/web/20041207171041/http://www.shakespeareco.org/) is a wonderful and extraordinary place in Paris!  
 If you love books and think of going to Paris, this the place you have to go for sure, rather than to the Eiffel Tower or Notre Dame (which is very close anyway).  

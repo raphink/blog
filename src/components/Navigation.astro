@@ -8,6 +8,8 @@ interface Props {
 
 const { currentUrl, lang } = Astro.props;
 const isFr = lang === 'fr' || (currentUrl && currentUrl.startsWith('/fr'));
+const seriesUrl = isFr ? '/fr/series/' : '/series/';
+const seriesLabel = isFr ? 'Séries' : 'Series';
 ---
 <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
     <div class="site-nav-wrap">
@@ -18,6 +20,9 @@ const isFr = lang === 'fr' || (currentUrl && currentUrl.startsWith('/fr'));
                         <a href={link.url}>{link.label}</a>
                     </li>
                 ))}
+                <li class={`menu-item${currentUrl === seriesUrl ? ' current-menu-item' : ''}`}>
+                    <a href={seriesUrl}>{seriesLabel}</a>
+                </li>
                 <li class="menu-item">
                     {isFr
                         ? <a href="/" title="Read in English">🇬🇧</a>

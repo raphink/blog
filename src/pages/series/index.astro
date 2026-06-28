@@ -1,0 +1,45 @@
+---
+import { getAllPosts, seriesSlug } from '../../lib/posts.js';
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import Footer from '../../components/Footer.astro';
+
+const posts = getAllPosts('en');
+const seriesMap = {};
+posts.forEach(p => {
+    if (p.series) {
+        const slug = seriesSlug(p.series);
+        if (!seriesMap[slug]) seriesMap[slug] = { name: p.series, posts: [], latest: p.date };
+        seriesMap[slug].posts.push(p);
+        if (new Date(p.date) > new Date(seriesMap[slug].latest)) seriesMap[slug].latest = p.date;
+    }
+});
+const allSeries = Object.entries(seriesMap)
+    .map(([slug, { name, posts, latest }]) => ({ slug, name, count: posts.length, latest }))
+    .sort((a, b) => new Date(b.latest) - new Date(a.latest));
+---
+<Base title="Series">
+    <Sidebar lang="en" />
+    <div id="content" class="site-content">
+        <main id="main" class="site-main inner">
+            <h1 class="page-title">Series</h1>
+            <div class="post-feed">
+                {allSeries.map(s => (
+                    <article class="post post-card">
+                        <div class="post-card-body">
+                            <header class="post-header">
+                                <h2 class="post-title">
+                                    <a href={`/series/${s.slug}/`}>{s.name}</a>
+                                </h2>
+                                <div class="post-meta">
+                                    <span>{s.count} {s.count === 1 ? 'post' : 'posts'}</span>
+                                </div>
+                            </header>
+                        </div>
+                    </article>
+                ))}
+            </div>
+        </main>
+        <Footer />
+    </div>
+</Base>

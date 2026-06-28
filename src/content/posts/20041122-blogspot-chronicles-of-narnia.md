@@ -18,7 +18,7 @@ Author:
 
 C.S. Lewis
 
-![](https://web.archive.org/web/20041207144219if_/http://www.smsjunior.net:80/Narnia/animalherd.jpg)
+![](https://web.archive.org/web/20041207144219im_/http://www.smsjunior.net/Narnia/animalherd.jpg)
 
 **N**arnia is a wonderful series of books for children or adults.  
 C.S. Lewis writes great imaginative stories, very educational and constructive for the personality, gathering his experience, classical tales, the bible...  

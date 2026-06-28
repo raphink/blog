@@ -16,7 +16,7 @@ Augeas is a C project using autotools. It was thus easier to activate NaturalDoc
   
 In configure.ac:  
   
-
+```m4
 dnl Check for NaturalDocs
 AC\_PATH\_PROGS(\[ND\_PROG\], \[naturaldocs NaturalDocs\], missing)
 AM\_CONDITIONAL(\[ND\_ENABLED\], \[test "x$ND\_PROG" != "xmissing"\])
@@ -40,12 +40,13 @@ AC\_ARG\_WITH(\[naturaldocs-output\],
     esac
   \])
 AC\_SUBST(ND\_FORMAT)
+```
 
   
   
 In doc/naturaldocs/Makefile.am:  
   
-
+```makefile
 EXTRA\_DIST = $(wildcard conf/Augeas.css conf/c\_api/\*.txt) \\
              $(wildcard conf/lenses/\*.txt) \\
              Modules/NaturalDocs/Languages/Augeas.pm
@@ -99,6 +100,7 @@ NDConf:
 clean-local:
  rm -rf output conf/Data
  rm -rf $(ND\_CONF)/c\_api/Data $(ND\_CONF)/lenses/Data
+```
 
   
   

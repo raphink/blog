@@ -11,7 +11,9 @@ It's quite easy to force environments variables in an SSH session, since /etc/pr
 So it can be useful to know that /etc/environment is read by SSH aswell as login. The format is "VARIABLE=VALUE" for each line. In my case, I needed to force TMPDIR to "/var/lib/gforge-dop/chroot/tmp" so I just put "TMPDIR=/var/lib/gforge-dop/chroot/tmp" in /etc/environment and it worked :)  
   
 You can test if your variable is added by doing :  
-ssh user@host env  
+```bash
+ssh user@host env
+```  
   
 and see if your variable is listed properly by env.  
   

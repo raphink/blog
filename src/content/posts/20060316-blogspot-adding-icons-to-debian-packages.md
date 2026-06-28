@@ -29,6 +29,7 @@ Well looking around I found librsvg-bin (no idea why it’s named this way since
 
 So we’re adding librsvg-bin to Build-Depends, putting our svg as debian/myapp.svg, and completing debian/rules. Now the problem I have is that I’d like to use a for loop to generate all icons but make won’t let me use bash script… So I’ll create a script file that I’ll name debian/buildicons.sh, with these contents (don’t forget to give it a chmod +x):
 
+```bash
 #!/bin/bash  
   
 svgname="$1"  
@@ -46,26 +47,33 @@ do
                rsvg-convert -h "$resol" -w "$resol"  "debian/${svgname}" -o "${icondir}/${pngname}"  
        fi  
 done  
-icondir=”debian/icons/hicolor/scalable/${section}”  
-mkdir -p “$icondir”  
-gzip -9 "debian/${svgname}" -c > “${icondir}/${svgname}z”  
+icondir="debian/icons/hicolor/scalable/${section}"  
+mkdir -p "$icondir"  
+gzip -9 "debian/${svgname}" -c > "${icondir}/${svgname}z"  
+```
 
 We’re using an argument in this script for the program name so it can be ported and used in other packages.  
 Note the last lines, that are aimed to gzipping and installing the svg file in /usr/share/icons/hicolor/scalable/.
 
 We’ll call this script from within debian/rules with the following:
 
+```makefile
 build/mypackage::  
 debian/buildicons.sh myapp.svg apps  
+```
 
 Then we’ll install the icons with:
 
+```makefile
 install/mypackage::  
 dh\_install debian/icons/\* usr/share/icons
+```
 
 Then finally clean the build:
 
+```makefile
 clean::  
 rm -rf debian/icons
+```
 
 Note: I reckon it’s kind of dirty to externalize debian/buildicons.sh as I propose to do. If anyone has a proposal to make it part of debian/rules cleanly, I’ll be happy to hear it ![:D](http://web.archive.org/web/20060806182544/http://raphink.info/blog/wp-includes/images/smilies/icon_biggrin.gif)

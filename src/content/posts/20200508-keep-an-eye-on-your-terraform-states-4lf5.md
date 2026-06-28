@@ -23,7 +23,7 @@ With all this, one thing remained: how do we keep an eye on all these states, re
 
 # Introducing Terraboard
 
-![Terraboard](https://web.archive.org/web/20200724073609if_/https://raw.githubusercontent.com/camptocamp/terraboard/master/logo/terraboard_logo.png)
+![Terraboard](https://raw.githubusercontent.com/camptocamp/terraboard/master/logo/terraboard_logo.png)
 
 [Terraboard](https://github.com/camptocamp/terraboard) was born in an attempt to bring an easy-to-use Web Interface for Terraform states.
 

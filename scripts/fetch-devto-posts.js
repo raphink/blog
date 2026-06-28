@@ -249,6 +249,34 @@ function injectLocalFields(content, localFields) {
     return content.replace(/\n---\n/, `\n${extra}\n---\n`);
 }
 
+// Extract URL replacements made locally (e.g. archive.org fixes) from an existing file.
+// Returns a Map of original URL -> replacement URL by comparing URLs in both versions.
+function extractUrlFixes(existing, fresh) {
+    if (!existing) return new Map();
+    const urlRe = /https?:\/\/\S+/g;
+    const existingUrls = new Set(existing.match(urlRe) || []);
+    const freshUrls = new Set(fresh.match(urlRe) || []);
+    const fixes = new Map();
+    for (const url of freshUrls) {
+        if (!existingUrls.has(url)) {
+            // This URL from dev.to is gone from the local file — find its archive.org replacement
+            const escaped = url.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const archiveRe = new RegExp('https://web\\.archive\\.org/web/\\d+[a-z_]*/?' + escaped);
+            const match = existing.match(archiveRe);
+            if (match) fixes.set(url, match[0]);
+        }
+    }
+    return fixes;
+}
+
+function applyUrlFixes(content, fixes) {
+    if (!fixes.size) return content;
+    for (const [orig, replacement] of fixes) {
+        content = content.replaceAll(orig, replacement);
+    }
+    return content;
+}
+
 function extractSeriesFromBody(body) {
     if (!body) return null;
     const m = body.match(/^---\s*\r?\n([\s\S]*?)\r?\n---/);
@@ -324,7 +352,8 @@ async function main() {
         const existing = fs.existsSync(filePath)
             ? fs.readFileSync(filePath, 'utf8')
             : null;
-        const contentWithLocal = injectLocalFields(content, extractLocalFields(existing));
+        const urlFixes = extractUrlFixes(existing, content);
+        const contentWithLocal = applyUrlFixes(injectLocalFields(content, extractLocalFields(existing)), urlFixes);
         if (existing === contentWithLocal) {
             unchanged++;
             continue;

@@ -3,8 +3,8 @@ template: post
 title: "Templating Puppet Control Repositories"
 date: "2020-07-21T08:45:28Z"
 excerpt: "When managing multiple Puppet Control Repositories, modulesync is a very useful tool to keep files in sync."
-thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
-content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
+thumb_img_path: "https://web.archive.org/web/20190203072122if_/https://www.camptocamp.com/wp-content/uploads/xformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
+content_img_path: "https://web.archive.org/web/20190203072122if_/https://www.camptocamp.com/wp-content/uploads/xformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
 canonical_url: "https://dev.to/camptocamp-ops/templating-puppet-control-repositories-3pk7"
 devto_url: "https://dev.to/camptocamp-ops/templating-puppet-control-repositories-3pk7"
 tags: ["puppet", "devops", "cfgmgmt", "tutorial"]

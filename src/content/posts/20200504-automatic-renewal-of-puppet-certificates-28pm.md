@@ -3,8 +3,8 @@ template: post
 title: "Automatic Renewal of Puppet Certificates"
 date: "2020-05-04T06:36:04Z"
 excerpt: "Everyone who has been using Puppet with a self-signed CA for more than 5 years knows that dreaded time: the time when the CA must be renewed."
-thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
-content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
+thumb_img_path: "https://web.archive.org/web/20190203072122if_/https://www.camptocamp.com/wp-content/uploads/xformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
+content_img_path: "https://web.archive.org/web/20190203072122if_/https://www.camptocamp.com/wp-content/uploads/xformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
 canonical_url: "https://www.camptocamp.com/actualite/automatic-renewal-of-puppet-certificates/"
 devto_url: "https://dev.to/camptocamp-ops/automatic-renewal-of-puppet-certificates-28pm"
 tags: ["puppet", "devops", "opensource", "security"]

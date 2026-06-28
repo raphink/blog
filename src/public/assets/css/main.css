@@ -1423,6 +1423,26 @@ body.has-theme-bar #page {
   }
 }
 
+/* Copy button for code blocks */
+.copy-code-btn {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 4px;
+  color: #ccc;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.75rem;
+  padding: 0.2em 0.6em;
+  transition: background 0.15s;
+}
+.copy-code-btn:hover {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
 /* Astro/Shiki code blocks */
 .astro-code {
   border-radius: 6px;

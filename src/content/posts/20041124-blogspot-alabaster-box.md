@@ -18,6 +18,6 @@ Artist:
 
 CeCe Winans
 
-[![](http://web.archive.org/web/20041207171041/http://www.samma.nl/shop/cd/image/8517112.jpg)](http://web.archive.org/web/20041207171041/http://www.samma.nl/shop/cd/8517112.html)
+[![](http://web.archive.org/web/20051223112524im_/http://www.samma.nl/shop/cd/image/8517112.jpg)](http://web.archive.org/web/20041207171041/http://www.samma.nl/shop/cd/8517112.html)
 
 **I** have been listening to this song again and again this last week, and I really love it. This is so beautiful and I just love the [lyrics](http://web.archive.org/web/20041207171041/http://www.clarion-call.org/yeshua/alabastr/song.htm) too!

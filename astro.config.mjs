@@ -10,7 +10,7 @@ export default defineConfig({
     integrations: [react(), sitemap()],
     markdown: {
         shikiConfig: {
-            theme: 'github-light',
+            theme: 'github-dark',
         },
     },
     vite: {

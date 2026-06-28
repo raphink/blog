@@ -1425,10 +1425,9 @@ body.has-theme-bar #page {
 
 /* Astro/Shiki code blocks */
 .astro-code {
-  background-color: rgb(246, 248, 250) !important;
-  border: 1px solid rgb(214, 218, 222);
   border-radius: 6px;
+  padding: 1.2em 1.4em !important;
 }
-.astro-code span {
-  background-color: transparent !important;
+.astro-code .line {
+  background: transparent !important;
 }

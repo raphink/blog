@@ -1428,6 +1428,7 @@ body.has-theme-bar #page {
   border-radius: 6px;
   padding: 1.2em 1.4em !important;
 }
+.astro-code code,
 .astro-code .line {
   background: transparent !important;
 }

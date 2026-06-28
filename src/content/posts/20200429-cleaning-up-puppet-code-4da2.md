@@ -3,8 +3,8 @@ template: post
 title: "Cleaning up Puppet Code"
 date: "2020-04-29T10:54:01Z"
 excerpt: "Code quality is important to ensure style consistency and easy maintenance. Puppet-lint, Onceover and puppet-ghostbuster help ensure Puppet code quality."
-thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
-content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
+thumb_img_path: "https://web.archive.org/web/20180714005724if_/https://www.camptocamp.com/wp-content/uploads/xformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
+content_img_path: "https://web.archive.org/web/20180714005724if_/https://www.camptocamp.com/wp-content/uploads/xformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
 canonical_url: "https://www.camptocamp.com/actualite/cleaning-up-puppet-code/"
 devto_url: "https://dev.to/camptocamp-ops/cleaning-up-puppet-code-4da2"
 tags: ["puppet", "devops", "codequality", "opensource"]

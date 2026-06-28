@@ -15,7 +15,7 @@ Most companies that have switched their deployments to containers have faced thi
 
 Fortunately for us, Prometheus came early on in the ecosystem, providing an elegant solution to gather metrics from microservices and derive all sort of observability tools from them, including monitoring. Prometheus also allows to monitor the cluster nodes, by returning their metrics and aggregating them into views of their own. Problem solved, we can now get rid of our historical monitoring infrastructure. Or can we?
 
-![](https://www.camptocamp.com/wp-content/uploads/prometheus-550x120.png)
+![](https://web.archive.org/web/20200505144901if_/https://www.camptocamp.com/wp-content/uploads/prometheus-550x120.png)
 
 As much as we'd like to think all our applications are now containerized and all our machines are neutral cluster nodes in a large cattle, the reality is often very different. Most companies still have a large quantity of specialized machines---even snowflakes at times--- that are not taken into account by your latest Kubernetes cluster. Should we keep Nagios running for those, or is it possible to make them fit into the new paradigm?
 

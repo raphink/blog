@@ -10,17 +10,17 @@ interface Props {
 }
 
 const { url, title, date, excerpt, thumb, seriesIndex, lang } = Astro.props;
+const slug = url.replace(/^\/(?:fr\/)?posts\//, '').replace(/\/$/, '');
+const thumbSrc = thumb || `/og/${slug}.png`;
 const dateObj = new Date(date);
 const formattedDate = dateObj.toLocaleDateString(lang === 'fr' ? 'fr-FR' : 'en-US', {
     year: 'numeric', month: 'long', day: 'numeric'
 });
 ---
 <article class="post post-card">
-    {thumb && (
-        <a class="post-card-banner" href={url}>
-            <img src={thumb} alt={title} />
-        </a>
-    )}
+    <a class="post-card-banner" href={url}>
+        <img src={thumbSrc} alt={title} />
+    </a>
     <div class="post-card-body">
         <header class="post-header">
             <h2 class="post-title">

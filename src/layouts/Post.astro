@@ -26,6 +26,8 @@ const {
     canonical_url, blogspot_url, tags, series, translation, lang, url
 } = Astro.props;
 
+const postSlug = url.replace(/^\/(?:fr\/)?posts\//, '').replace(/\/$/, '');
+const heroImage = content_img_path || thumb_img_path || `/og/${postSlug}.png`;
 const isFr = lang === 'fr';
 const tagsBase = isFr ? '/fr/tags' : '/tags';
 const seriesBase = isFr ? '/fr/series' : '/series';
@@ -70,11 +72,9 @@ const translationLabel = translation
                             <a href={translation}>{translationLabel}</a>
                         </div>
                     )}
-                    {(content_img_path || thumb_img_path) && (
-                        <div class="post-thumbnail">
-                            <img src={content_img_path || thumb_img_path} alt={title} />
-                        </div>
-                    )}
+                    <div class="post-thumbnail">
+                        <img src={heroImage} alt={title} />
+                    </div>
                     <div class="post-content">
                         <slot />
                     </div>

@@ -3,8 +3,8 @@ template: post
 title: "Automated Puppet Impact Analysis"
 date: "2020-05-07T20:49:52Z"
 excerpt: "Using GitLab Pipelines and Catalog Diff to preview changes between two branches in a merge request"
-thumb_img_path: "https://web.archive.org/web/20190203072122if_/https://www.camptocamp.com/wp-content/uploads/xformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
-content_img_path: "https://web.archive.org/web/20190203072122if_/https://www.camptocamp.com/wp-content/uploads/xformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
+thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
+content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxformations_puppet1-720x400.png.pagespeed.ic.UU2oY1Zlj8.webp"
 canonical_url: "https://dev.to/camptocamp-ops/automated-puppet-impact-analysis-1c1"
 devto_url: "https://dev.to/camptocamp-ops/automated-puppet-impact-analysis-1c1"
 tags: ["puppet", "devops", "codequality", "showdev"]

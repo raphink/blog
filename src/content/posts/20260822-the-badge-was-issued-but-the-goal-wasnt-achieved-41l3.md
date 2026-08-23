@@ -2,7 +2,7 @@
 template: post
 title: "The Badge Was Issued, but the Goal Wasn't Achieved."
 date: "2026-08-22T20:43:50Z"
-excerpt: "How I apply Theory of Constraints to technical enablement systems."
+excerpt: "Applying Theory of Constraints to technical enablement systems for continuous platform improvement."
 thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqetduvq4svqqv9krbeck.png"
 content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqetduvq4svqqv9krbeck.png"
 canonical_url: "https://dev.to/raphink/the-badge-was-issued-but-the-goal-wasnt-achieved-41l3"

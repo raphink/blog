@@ -3,8 +3,8 @@ template: post
 title: "Keep an eye on your Terraform states"
 date: "2020-05-08T08:11:27Z"
 excerpt: "About 4 years ago, we started using Terraform. Many things we were doing manually in the cloud at the time are now coded."
-thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxterraform_bandeau.png.pagespeed.ic.neAGqH-_lX.webp"
-content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxterraform_bandeau.png.pagespeed.ic.neAGqH-_lX.webp"
+thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxterraform_bandeau.png.pagespeed.ic.neAGqH-_lX.webp"
+content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxterraform_bandeau.png.pagespeed.ic.neAGqH-_lX.webp"
 canonical_url: "https://www.camptocamp.com/actualite/keep-an-eye-on-your-terraform-states/"
 devto_url: "https://dev.to/camptocamp-ops/keep-an-eye-on-your-terraform-states-4lf5"
 tags: ["terraform", "devops", "showdev", "opensource"]

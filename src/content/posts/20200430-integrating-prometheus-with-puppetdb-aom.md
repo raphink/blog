@@ -3,8 +3,8 @@ template: post
 title: "Integrating Prometheus with PuppetDB"
 date: "2020-04-30T10:48:51Z"
 excerpt: "Many applications are not containerized, and we still need to monitor their nodes. Prometheus PuppetDB SD allows to discover nodes in the PuppetDB and generate Prometheus configurations automatically."
-thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxbanner-1.png.pagespeed.ic.-LxmyH1pjm.webp"
-content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxbanner-1.png.pagespeed.ic.-LxmyH1pjm.webp"
+thumb_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxbanner-1.png.pagespeed.ic.-LxmyH1pjm.webp"
+content_img_path: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fwww.camptocamp.com%2Fwp-content%2Fuploads%2Fxbanner-1.png.pagespeed.ic.-LxmyH1pjm.webp"
 canonical_url: "https://www.camptocamp.com/actualite/integrating-prometheus-with-puppetdb/"
 devto_url: "https://dev.to/camptocamp-ops/integrating-prometheus-with-puppetdb-aom"
 tags: ["devops", "showdev", "puppet", "opensource"]
